@@ -7,6 +7,7 @@ let currentFilter = "all";
 let sessionHistory = [];  // last 10 shown question IDs
 let sessionCount = 0;
 let referenceData = null;
+let dangerQueue = [];  // queued sibling sub-questions for current danger scenario
 
 const STORAGE_KEY = "jdl_progress";
 
@@ -189,8 +190,14 @@ function showQuestion(q) {
   // Question text
   document.getElementById("question-text").textContent = q.text;
 
-  // Counter
-  document.getElementById("study-counter").textContent = `#${sessionCount}`;
+  // Counter + danger sub-question indicator
+  let counterText = `#${sessionCount}`;
+  if (q.type === "danger") {
+    const subNum = q.id.match(/_(\d+)$/)[1];
+    const totalSibs = allQuestions.filter(o => o.id.startsWith(q.id.replace(/_\d+$/, "_"))).length;
+    counterText += `  (${subNum}/${totalSibs})`;
+  }
+  document.getElementById("study-counter").textContent = counterText;
 
   // Reset UI
   document.getElementById("answer-buttons").style.display = "flex";
@@ -231,8 +238,24 @@ function submitAnswer(answer) {
   document.getElementById("result-explanation").textContent = currentQuestion.explanation;
 }
 
+function getDangerSiblings(q) {
+  // Given a danger sub-question like "dl1_q91_1", find all siblings "dl1_q91_*"
+  const prefix = q.id.replace(/_\d+$/, "_");
+  return allQuestions.filter(other => other.id.startsWith(prefix) && other.id !== q.id)
+    .sort((a, b) => a.id.localeCompare(b.id));
+}
+
 function nextQuestion() {
-  const q = pickQuestion();
+  let q;
+  if (dangerQueue.length > 0) {
+    q = dangerQueue.shift();
+  } else {
+    q = pickQuestion();
+    // If a danger question was picked, queue its siblings
+    if (q && q.type === "danger") {
+      dangerQueue = getDangerSiblings(q);
+    }
+  }
   if (q) {
     showQuestion(q);
   }
@@ -385,6 +408,7 @@ function resetProgress() {
     sessionHistory = [];
     sessionCount = 0;
     currentQuestion = null;
+    dangerQueue = [];
     updateHomeProgress();
     renderStats();
   }
