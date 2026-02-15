@@ -163,9 +163,10 @@ function showQuestion(q) {
   currentQuestion = q;
   sessionCount++;
 
-  // Source label
-  const sourceLabel = q.source.toUpperCase().replace("LP", "Learner's Permit ").replace("DL", "Driver's License ");
-  const typeLabel = q.type === "danger" ? " - Danger" : "";
+  // Source label with question number
+  const sourceLabel = q.source.toUpperCase().replace("LP", "LP Exam ").replace("DL", "DL Exam ");
+  const qNum = q.id.match(/q(\d+)/)[1].replace(/^0+/, "");
+  const typeLabel = q.type === "danger" ? " - Danger Q" + qNum : " - Q" + qNum;
   document.getElementById("question-source").textContent = sourceLabel + typeLabel;
 
   // Image
