@@ -279,7 +279,10 @@
           "What to do when proceeding through an intersection with no traffic light when the width of the intersecting roads are the same: A vehicle approaching from the left has the right of way.",
           "A vehicle proceeding on the priority road has the right of way.",
           "A vehicle proceeding on the wider road has the right of way.",
-          "Roads with the Right of Way: These roads indicated by the traffic sign are on the left, and roads where the halfway line or the vehicular lanes continue through the intersection.",
+          {
+            "text": "Roads with the Right of Way: These roads indicated by the traffic sign are on the left, and roads where the halfway line or the vehicular lanes continue through the intersection.",
+            "image_file": "images/ref_roads_with_the_right_of_way.png"
+          },
           "Oncoming vehicles proceeding straight and those making a left turn have priority over the vehicles making a right turn."
         ]
       },
