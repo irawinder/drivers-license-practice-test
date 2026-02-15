@@ -133,6 +133,13 @@
     {
       "tag": "ref_carrying_restrictions",
       "no_image": true
+    },
+    {
+      "tag": "ref_roads_with_the_right_of_way",
+      "x1": 1726,
+      "y1": 1077,
+      "x2": 1813,
+      "y2": 1180
     }
   ],
   "page_03_lp_exam1_q01-q25.png": [
