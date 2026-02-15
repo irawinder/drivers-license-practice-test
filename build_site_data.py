@@ -3,7 +3,9 @@
 
 import json
 import os
+import re
 import shutil
+import time
 
 EXTRACTED = "extracted"
 DOCS = "docs"
@@ -125,6 +127,16 @@ def main():
                 shutil.copy2(os.path.join(SRC_IMG_DIR, fname), os.path.join(IMG_DIR, fname))
                 count += 1
     print(f"Copied {count} images to {IMG_DIR}/")
+
+    # Bump cache version in index.html
+    index_path = os.path.join(DOCS, "index.html")
+    with open(index_path, "r", encoding="utf-8") as f:
+        html = f.read()
+    version = str(int(time.time()))
+    html = re.sub(r'\?v=\w+', f'?v={version}', html)
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"Bumped cache version to {version} in index.html")
 
 
 if __name__ == "__main__":
