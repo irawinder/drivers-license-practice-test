@@ -44,7 +44,7 @@ function saveProgress(progress) {
 function getQuestionStatus(id) {
   const p = getProgress()[id];
   if (!p) return "unseen";
-  if (p.streak >= 2) return "mastered";
+  if (p.streak >= 1) return "mastered";
   if (p.streak === 0 && p.wrong > 0) return "wrong";
   return "in_progress";
 }
@@ -233,7 +233,7 @@ function submitAnswer(answer) {
   resultPanel.style.display = "block";
 
   const banner = document.getElementById("result-banner");
-  const justMastered = correct && p.streak === 2;
+  const justMastered = correct && p.streak === 1;
   banner.className = "result-banner " + (correct ? "correct" : "incorrect");
   let bannerText = correct ? "Correct!" : "Incorrect - Answer: " + (currentQuestion.correct_answer === "T" ? "TRUE" : "FALSE");
   if (justMastered) bannerText += " Mastered!";
