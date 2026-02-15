@@ -782,7 +782,7 @@
       "has_image": false,
       "image_description": null,
       "correct_answer": "T",
-      "explanation": "Three children under the age of 12 years are equivalent to two adults. So the total is: 1 driver + 3 adults + 2 adult-equivalents = 6, which matches the seating capacity.",
+      "explanation": "Three children under the age of 12 years are equivalent to two adults.",
       "image_file": null
     },
     {
