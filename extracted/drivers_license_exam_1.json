@@ -461,7 +461,7 @@
       "text": "On one-way roads, you may park on the right side of the road.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "T",
+      "correct_answer": "F",
       "explanation": "You must park on the left side of the road even on one-way roads.",
       "image_file": null
     },
