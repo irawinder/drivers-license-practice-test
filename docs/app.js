@@ -223,6 +223,18 @@ function submitAnswer(answer) {
   } else {
     p.wrong++;
     p.streak = 0;
+    // If a danger sub-question is wrong, mark all siblings as wrong too
+    if (currentQuestion.type === "danger") {
+      const prefix = currentQuestion.id.replace(/_\d+$/, "_");
+      for (const q of allQuestions) {
+        if (q.id.startsWith(prefix) && q.id !== currentQuestion.id) {
+          const sp = progress[q.id] || { correct: 0, wrong: 0, streak: 0 };
+          sp.wrong++;
+          sp.streak = 0;
+          progress[q.id] = sp;
+        }
+      }
+    }
   }
   progress[currentQuestion.id] = p;
   saveProgress(progress);
