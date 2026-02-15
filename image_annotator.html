@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Image Annotator</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; height: 100vh; display: flex; flex-direction: column; background: #1a1a2e; color: #eee; }
+
+/* Header */
+.header { display: flex; align-items: center; gap: 10px; padding: 8px 16px; background: #16213e; border-bottom: 1px solid #0f3460; flex-shrink: 0; }
+.header h1 { font-size: 16px; font-weight: 600; margin-right: 12px; color: #e94560; }
+.header select { padding: 5px 8px; border-radius: 4px; border: 1px solid #555; background: #2a2a4a; color: #eee; font-size: 13px; max-width: 400px; }
+.header button { padding: 5px 14px; border-radius: 4px; border: 1px solid #555; background: #2a2a4a; color: #eee; cursor: pointer; font-size: 13px; }
+.header button:hover { background: #3a3a5a; }
+.header button.primary { background: #0f3460; border-color: #e94560; }
+.header button.primary:hover { background: #1a4a7a; }
+.header .spacer { flex: 1; }
+.header .status { font-size: 12px; color: #999; }
+
+/* Main layout */
+.main { display: flex; flex: 1; overflow: hidden; }
+
+/* Canvas area */
+.canvas-wrap { flex: 1; overflow: auto; display: flex; justify-content: center; align-items: flex-start; padding: 12px; background: #111; position: relative; }
+.canvas-wrap canvas { cursor: crosshair; box-shadow: 0 2px 20px rgba(0,0,0,0.5); }
+
+/* Sidebar */
+.sidebar { width: 360px; flex-shrink: 0; border-left: 1px solid #333; display: flex; flex-direction: column; background: #16213e; overflow: hidden; }
+.sidebar h3 { font-size: 13px; font-weight: 600; padding: 10px 12px 6px; color: #e94560; text-transform: uppercase; letter-spacing: 0.5px; }
+.sidebar-section { padding: 0 12px 8px; }
+
+/* Annotations list */
+.ann-list { overflow-y: auto; max-height: 200px; }
+.ann-item { display: flex; align-items: center; gap: 6px; padding: 5px 8px; margin: 2px 0; border-radius: 4px; background: #2a2a4a; font-size: 12px; }
+.ann-item .swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+.ann-item .tag { font-weight: 600; flex: 1; }
+.ann-item .size { color: #888; font-size: 11px; }
+.ann-item .del { cursor: pointer; color: #e94560; padding: 0 4px; font-weight: bold; }
+.ann-item .del:hover { color: #ff6b81; }
+.no-annotations { font-size: 12px; color: #666; padding: 8px; font-style: italic; }
+
+/* Question list */
+.q-list { overflow-y: auto; flex: 1; }
+.q-item { padding: 6px 10px; margin: 2px 0; border-radius: 4px; font-size: 12px; border-left: 3px solid transparent; transition: background 0.1s; display: flex; align-items: flex-start; gap: 6px; }
+.q-item:hover { background: #2a2a4a; }
+.q-item.assigned { border-left-color: #27ae60; }
+.q-item.assigned .q-check { color: #27ae60; }
+.q-item.no-image-marked { border-left-color: #e94560; opacity: 0.5; }
+.q-item.no-image-marked .q-check { color: #e94560; }
+.q-item.no-has-image { opacity: 0.6; border-left-color: #555; }
+.q-item .q-tag { font-weight: 600; color: #53c0f0; }
+.q-item .q-desc { color: #999; font-size: 11px; margin-top: 2px; }
+.q-item .q-check { margin-right: 2px; flex-shrink: 0; }
+.q-item .q-content { flex: 1; min-width: 0; }
+.q-item .q-actions { flex-shrink: 0; display: flex; gap: 4px; }
+.q-item .btn-no-img { font-size: 10px; padding: 2px 6px; border-radius: 3px; border: 1px solid #e94560; color: #e94560; background: transparent; cursor: pointer; white-space: nowrap; }
+.q-item .btn-no-img:hover { background: #e9456030; }
+.q-item .btn-undo-no-img { font-size: 10px; padding: 2px 6px; border-radius: 3px; border: 1px solid #888; color: #888; background: transparent; cursor: pointer; white-space: nowrap; }
+.q-item .btn-undo-no-img:hover { background: #88888830; }
+
+/* Tag input popup */
+.tag-popup { position: fixed; background: #1e1e3e; border: 2px solid #e94560; border-radius: 8px; padding: 12px; z-index: 100; box-shadow: 0 4px 20px rgba(0,0,0,0.5); min-width: 280px; max-height: 400px; overflow-y: auto; }
+.tag-popup h4 { font-size: 13px; margin-bottom: 8px; color: #e94560; }
+.tag-popup .q-pick { padding: 6px 8px; margin: 2px 0; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.tag-popup .q-pick:hover { background: #3a3a5a; }
+.tag-popup .q-pick .pick-tag { font-weight: 600; color: #53c0f0; }
+.tag-popup .custom-row { display: flex; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px solid #333; }
+.tag-popup input { flex: 1; padding: 5px 8px; background: #2a2a4a; border: 1px solid #555; border-radius: 4px; color: #eee; font-size: 12px; }
+.tag-popup .btn-row { display: flex; gap: 6px; margin-top: 8px; }
+.tag-popup .btn-row button { flex: 1; padding: 5px; font-size: 12px; border-radius: 4px; border: 1px solid #555; cursor: pointer; }
+.tag-popup .btn-ok { background: #0f3460; color: #eee; }
+.tag-popup .btn-cancel { background: #333; color: #eee; }
+
+/* Toast */
+.toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #27ae60; color: white; padding: 8px 20px; border-radius: 6px; font-size: 13px; z-index: 200; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+.toast.show { opacity: 1; }
+
+/* Progress bar */
+.progress { height: 3px; background: #333; width: 100%; }
+.progress .bar { height: 100%; background: #e94560; transition: width 0.3s; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Image Annotator</h1>
+  <button id="prevBtn" title="Previous page (←)">&#9664; Prev</button>
+  <select id="pageSelect"></select>
+  <button id="nextBtn" title="Next page (→)">Next &#9654;</button>
+  <span id="pageInfo" class="status"></span>
+  <span class="spacer"></span>
+  <span id="totalStatus" class="status"></span>
+  <button id="saveBtn">Save</button>
+  <button id="processBtn" class="primary">Process &amp; Crop</button>
+</div>
+<div class="progress"><div class="bar" id="progressBar"></div></div>
+<div class="main">
+  <div class="canvas-wrap" id="canvasWrap">
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="sidebar">
+    <h3>Annotations on this page</h3>
+    <div class="sidebar-section ann-list" id="annList"></div>
+    <h3>Questions on this page</h3>
+    <div class="q-list" id="qList"></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const canvasWrap = document.getElementById('canvasWrap');
+const pageSelect = document.getElementById('pageSelect');
+const annListEl = document.getElementById('annList');
+const qListEl = document.getElementById('qList');
+const progressBar = document.getElementById('progressBar');
+
+let pages = [];
+let annotations = {};  // filename -> [{tag, x1, y1, x2, y2} or {tag, no_image: true}]
+let currentPageIdx = 0;
+let pageImage = null;
+let imageScale = 1;
+let isDrawing = false;
+let drawStart = {x: 0, y: 0};
+let pendingRect = null;  // rect awaiting tag assignment
+let tagPopup = null;
+
+const COLORS = ['#e94560','#53c0f0','#27ae60','#f39c12','#9b59b6','#e74c3c','#1abc9c','#e67e22','#3498db','#2ecc71','#e91e63','#00bcd4','#ff9800','#8bc34a','#673ab7'];
+
+// ── Init ──
+async function init() {
+  const [pagesResp, annResp] = await Promise.all([
+    fetch('/api/pages').then(r => r.json()),
+    fetch('/api/annotations').then(r => r.json()),
+  ]);
+  pages = pagesResp;
+  annotations = annResp;
+
+  // Populate page selector
+  pages.forEach((p, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    const nq = p.image_questions.length;
+    const label = p.label.replace(/^page_\d+_/, '');
+    opt.textContent = `Page ${i+1}: ${label}` + (nq > 0 ? ` (${nq} imgs)` : '');
+    pageSelect.appendChild(opt);
+  });
+
+  // Start on first page with image questions
+  const firstWithImages = pages.findIndex(p => p.image_questions.length > 0);
+  currentPageIdx = firstWithImages >= 0 ? firstWithImages : 0;
+  pageSelect.value = currentPageIdx;
+  loadPage(currentPageIdx);
+  updateTotalStatus();
+}
+
+// ── Page navigation ──
+function loadPage(idx) {
+  currentPageIdx = idx;
+  pageSelect.value = idx;
+  const page = pages[idx];
+
+  // Load image
+  pageImage = new Image();
+  pageImage.onload = () => {
+    fitCanvas();
+    redraw();
+    updateSidebar();
+  };
+  pageImage.src = `/images/${page.filename}`;
+
+  const nq = page.image_questions.length;
+  document.getElementById('pageInfo').textContent =
+    `Page ${idx+1}/${pages.length}` + (nq > 0 ? ` | ${nq} image questions` : '');
+}
+
+function fitCanvas() {
+  if (!pageImage) return;
+  const wrapRect = canvasWrap.getBoundingClientRect();
+  const maxW = wrapRect.width - 24;
+  const maxH = wrapRect.height - 24;
+  const scaleW = maxW / pageImage.naturalWidth;
+  const scaleH = maxH / pageImage.naturalHeight;
+  imageScale = Math.min(scaleW, scaleH, 1);
+  canvas.width = Math.round(pageImage.naturalWidth * imageScale);
+  canvas.height = Math.round(pageImage.naturalHeight * imageScale);
+}
+
+function redraw() {
+  if (!pageImage) return;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(pageImage, 0, 0, canvas.width, canvas.height);
+
+  // Draw saved annotations (skip no_image markers)
+  const page = pages[currentPageIdx];
+  const anns = annotations[page.filename] || [];
+  const rectAnns = anns.filter(a => !a.no_image);
+  rectAnns.forEach((ann, i) => {
+    const color = COLORS[i % COLORS.length];
+    const x = ann.x1 * imageScale, y = ann.y1 * imageScale;
+    const w = (ann.x2 - ann.x1) * imageScale, h = (ann.y2 - ann.y1) * imageScale;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2;
+    ctx.strokeRect(x, y, w, h);
+    ctx.fillStyle = color + '30';
+    ctx.fillRect(x, y, w, h);
+    // Label
+    ctx.fillStyle = color;
+    ctx.font = 'bold 12px sans-serif';
+    const label = ann.tag;
+    const tm = ctx.measureText(label);
+    ctx.fillStyle = '#000c';
+    ctx.fillRect(x, y - 16, tm.width + 6, 16);
+    ctx.fillStyle = color;
+    ctx.fillText(label, x + 3, y - 4);
+  });
+
+  // Draw pending rectangle
+  if (pendingRect) {
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.setLineDash([6, 4]);
+    const x = pendingRect.x1 * imageScale, y = pendingRect.y1 * imageScale;
+    const w = (pendingRect.x2 - pendingRect.x1) * imageScale;
+    const h = (pendingRect.y2 - pendingRect.y1) * imageScale;
+    ctx.strokeRect(x, y, w, h);
+    ctx.fillStyle = '#fff2';
+    ctx.fillRect(x, y, w, h);
+    ctx.setLineDash([]);
+  }
+}
+
+// ── Sidebar ──
+function updateSidebar() {
+  const page = pages[currentPageIdx];
+  const anns = annotations[page.filename] || [];
+  const assignedTags = new Set(anns.filter(a => !a.no_image).map(a => a.tag));
+  const noImageTags = new Set(anns.filter(a => a.no_image).map(a => a.tag));
+
+  // Annotations list (only actual rectangle annotations, not no_image markers)
+  const rectAnns = anns.filter(a => !a.no_image);
+  if (rectAnns.length === 0) {
+    annListEl.innerHTML = '<div class="no-annotations">No annotations yet. Draw a rectangle on the image.</div>';
+  } else {
+    annListEl.innerHTML = rectAnns.map((ann, i) => {
+      const realIdx = anns.indexOf(ann);
+      const color = COLORS[i % COLORS.length];
+      const w = ann.x2 - ann.x1, h = ann.y2 - ann.y1;
+      return `<div class="ann-item">
+        <div class="swatch" style="background:${color}"></div>
+        <span class="tag">${ann.tag}</span>
+        <span class="size">${w}x${h}</span>
+        <span class="del" onclick="deleteAnnotation(${realIdx})" title="Delete">&times;</span>
+      </div>`;
+    }).join('');
+  }
+
+  // Question list — show ALL questions, grouped by status
+  if (page.image_questions.length === 0) {
+    qListEl.innerHTML = '<div class="no-annotations">No questions on this page.</div>';
+  } else {
+    // Sort: has_image questions first, then others
+    const sorted = [...page.image_questions].sort((a, b) => {
+      if (a.has_image === b.has_image) return a.number - b.number;
+      return a.has_image ? -1 : 1;
+    });
+    qListEl.innerHTML = sorted.map(q => {
+      const isAssigned = assignedTags.has(q.tag);
+      const isNoImage = noImageTags.has(q.tag);
+      let cls = '';
+      let icon = '&#9744;';  // empty checkbox
+      let actions = '';
+
+      if (isAssigned) {
+        cls = 'assigned';
+        icon = '&#10003;';  // checkmark
+      } else if (isNoImage) {
+        cls = 'no-image-marked';
+        icon = '&#10007;';  // X mark
+        actions = `<button class="btn-undo-no-img" onclick="undoNoImage('${q.tag}')" title="Undo no-image">Undo</button>`;
+      } else if (q.has_image) {
+        // Expected to have image but not yet annotated
+        actions = `<button class="btn-no-img" onclick="markNoImage('${q.tag}')" title="Mark as no image">No img</button>`;
+      } else {
+        // Not expected to have image
+        cls = 'no-has-image';
+      }
+
+      const label = q.has_image ? '' : ' <span style="color:#888;font-size:10px">(text-only)</span>';
+      return `<div class="q-item ${cls}" data-tag="${q.tag}">
+        <span class="q-check">${icon}</span>
+        <div class="q-content">
+          <span class="q-tag">${q.tag}</span>${label}
+          <div class="q-desc">${q.desc || q.text}</div>
+        </div>
+        <div class="q-actions">${actions}</div>
+      </div>`;
+    }).join('');
+  }
+
+  updateTotalStatus();
+}
+
+function updateTotalStatus() {
+  let totalNeeded = 0, totalDone = 0, totalNoImg = 0;
+  pages.forEach(p => {
+    const anns = annotations[p.filename] || [];
+    const assignedTags = new Set(anns.filter(a => !a.no_image).map(a => a.tag));
+    const noImageTags = new Set(anns.filter(a => a.no_image).map(a => a.tag));
+    p.image_questions.forEach(q => {
+      if (!q.has_image) return;  // Only count has_image questions
+      totalNeeded++;
+      if (assignedTags.has(q.tag)) totalDone++;
+      else if (noImageTags.has(q.tag)) { totalDone++; totalNoImg++; }
+    });
+    // Also count newly annotated non-has_image questions
+    anns.filter(a => !a.no_image).forEach(a => {
+      const q = p.image_questions.find(q => q.tag === a.tag);
+      if (q && !q.has_image) { totalNeeded++; totalDone++; }
+    });
+  });
+  const noImgText = totalNoImg > 0 ? ` (${totalNoImg} marked no-img)` : '';
+  document.getElementById('totalStatus').textContent = `${totalDone}/${totalNeeded} annotated${noImgText}`;
+  progressBar.style.width = totalNeeded > 0 ? `${(totalDone/totalNeeded*100).toFixed(1)}%` : '0%';
+}
+
+// ── Drawing ──
+function getCanvasPos(e) {
+  const rect = canvas.getBoundingClientRect();
+  return {
+    x: (e.clientX - rect.left) / imageScale,
+    y: (e.clientY - rect.top) / imageScale
+  };
+}
+
+canvas.addEventListener('mousedown', (e) => {
+  if (e.button !== 0 || tagPopup) return;
+  isDrawing = true;
+  drawStart = getCanvasPos(e);
+});
+
+canvas.addEventListener('mousemove', (e) => {
+  if (!isDrawing) return;
+  const pos = getCanvasPos(e);
+  redraw();
+  // Preview rectangle
+  ctx.strokeStyle = '#fff';
+  ctx.lineWidth = 2;
+  ctx.setLineDash([6, 4]);
+  const x = Math.min(drawStart.x, pos.x) * imageScale;
+  const y = Math.min(drawStart.y, pos.y) * imageScale;
+  const w = Math.abs(pos.x - drawStart.x) * imageScale;
+  const h = Math.abs(pos.y - drawStart.y) * imageScale;
+  ctx.strokeRect(x, y, w, h);
+  ctx.setLineDash([]);
+});
+
+canvas.addEventListener('mouseup', (e) => {
+  if (!isDrawing) return;
+  isDrawing = false;
+  const pos = getCanvasPos(e);
+  const x1 = Math.round(Math.min(drawStart.x, pos.x));
+  const y1 = Math.round(Math.min(drawStart.y, pos.y));
+  const x2 = Math.round(Math.max(drawStart.x, pos.x));
+  const y2 = Math.round(Math.max(drawStart.y, pos.y));
+
+  if ((x2 - x1) < 8 || (y2 - y1) < 8) {
+    redraw();
+    return;
+  }
+
+  pendingRect = {x1, y1, x2, y2};
+  redraw();
+  showTagPopup(e.clientX, e.clientY);
+});
+
+// ── Tag popup ──
+function showTagPopup(mouseX, mouseY) {
+  if (tagPopup) tagPopup.remove();
+
+  const page = pages[currentPageIdx];
+  const anns = annotations[page.filename] || [];
+  const assignedTags = new Set(anns.filter(a => !a.no_image).map(a => a.tag));
+  // Show unassigned has_image questions first, then other questions
+  const unassignedHasImg = page.image_questions.filter(q => q.has_image && !assignedTags.has(q.tag));
+  const unassignedOther = page.image_questions.filter(q => !q.has_image && !assignedTags.has(q.tag));
+
+  const popup = document.createElement('div');
+  popup.className = 'tag-popup';
+
+  let html = '<h4>Assign to question:</h4>';
+
+  if (unassignedHasImg.length > 0) {
+    html += unassignedHasImg.map(q =>
+      `<div class="q-pick" data-tag="${q.tag}">
+        <span class="pick-tag">${q.tag}</span> &mdash; ${q.desc || q.text.substring(0, 60)}
+      </div>`
+    ).join('');
+  }
+
+  if (unassignedOther.length > 0) {
+    html += '<div style="color:#888; font-size:11px; padding:6px 4px 2px; border-top:1px solid #333; margin-top:4px;">Other questions on this page:</div>';
+    html += unassignedOther.map(q =>
+      `<div class="q-pick" data-tag="${q.tag}" style="opacity:0.7">
+        <span class="pick-tag">${q.tag}</span> &mdash; ${q.text.substring(0, 60)}
+      </div>`
+    ).join('');
+  }
+
+  if (unassignedHasImg.length === 0 && unassignedOther.length === 0) {
+    html += '<div style="color:#888; font-size:12px; padding:4px">All questions on this page are assigned.</div>';
+  }
+
+  html += `<div class="custom-row">
+    <input type="text" id="customTag" placeholder="Custom tag (e.g. ref_signs)">
+    <button class="btn-ok" id="customTagBtn">OK</button>
+  </div>`;
+  html += `<div class="btn-row">
+    <button class="btn-cancel" id="cancelTagBtn">Cancel</button>
+  </div>`;
+
+  popup.innerHTML = html;
+
+  // Position popup near mouse but within viewport
+  let left = mouseX + 10;
+  let top = mouseY - 20;
+  if (left + 300 > window.innerWidth) left = mouseX - 300;
+  if (top + 300 > window.innerHeight) top = window.innerHeight - 320;
+  if (top < 0) top = 10;
+  popup.style.left = left + 'px';
+  popup.style.top = top + 'px';
+
+  document.body.appendChild(popup);
+  tagPopup = popup;
+
+  // Event handlers
+  popup.querySelectorAll('.q-pick').forEach(el => {
+    el.addEventListener('click', () => {
+      assignTag(el.dataset.tag);
+    });
+  });
+
+  popup.querySelector('#customTagBtn').addEventListener('click', () => {
+    const tag = popup.querySelector('#customTag').value.trim();
+    if (tag) assignTag(tag);
+  });
+
+  popup.querySelector('#customTag').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const tag = popup.querySelector('#customTag').value.trim();
+      if (tag) assignTag(tag);
+    }
+  });
+
+  popup.querySelector('#cancelTagBtn').addEventListener('click', () => {
+    cancelTag();
+  });
+
+  // Focus the custom input if no questions available
+  if (unassigned.length === 0) {
+    setTimeout(() => popup.querySelector('#customTag').focus(), 50);
+  }
+}
+
+function assignTag(tag) {
+  if (!pendingRect) return;
+  const page = pages[currentPageIdx];
+  if (!annotations[page.filename]) annotations[page.filename] = [];
+
+  // Remove existing annotation with same tag on this page
+  annotations[page.filename] = annotations[page.filename].filter(a => a.tag !== tag);
+
+  annotations[page.filename].push({
+    tag: tag,
+    x1: pendingRect.x1, y1: pendingRect.y1,
+    x2: pendingRect.x2, y2: pendingRect.y2
+  });
+
+  pendingRect = null;
+  if (tagPopup) { tagPopup.remove(); tagPopup = null; }
+  redraw();
+  updateSidebar();
+  autoSave();
+}
+
+function cancelTag() {
+  pendingRect = null;
+  if (tagPopup) { tagPopup.remove(); tagPopup = null; }
+  redraw();
+}
+
+function deleteAnnotation(idx) {
+  const page = pages[currentPageIdx];
+  const anns = annotations[page.filename] || [];
+  anns.splice(idx, 1);
+  if (anns.length === 0) delete annotations[page.filename];
+  redraw();
+  updateSidebar();
+  autoSave();
+}
+
+function markNoImage(tag) {
+  const page = pages[currentPageIdx];
+  if (!annotations[page.filename]) annotations[page.filename] = [];
+  // Remove any existing annotation for this tag
+  annotations[page.filename] = annotations[page.filename].filter(a => a.tag !== tag);
+  // Add no_image marker
+  annotations[page.filename].push({ tag, no_image: true });
+  redraw();
+  updateSidebar();
+  autoSave();
+}
+
+function undoNoImage(tag) {
+  const page = pages[currentPageIdx];
+  if (!annotations[page.filename]) return;
+  annotations[page.filename] = annotations[page.filename].filter(a => a.tag !== tag);
+  if (annotations[page.filename].length === 0) delete annotations[page.filename];
+  redraw();
+  updateSidebar();
+  autoSave();
+}
+
+// ── Save / Process ──
+let saveTimeout = null;
+function autoSave() {
+  clearTimeout(saveTimeout);
+  saveTimeout = setTimeout(() => {
+    fetch('/api/save', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(annotations)
+    }).then(() => showToast('Saved'));
+  }, 500);
+}
+
+document.getElementById('saveBtn').addEventListener('click', () => {
+  fetch('/api/save', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(annotations)
+  }).then(() => showToast('Annotations saved!'));
+});
+
+document.getElementById('processBtn').addEventListener('click', async () => {
+  // Save first
+  await fetch('/api/save', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(annotations)
+  });
+  // Process
+  const resp = await fetch('/api/process', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(annotations)
+  });
+  const result = await resp.json();
+  const noImgMsg = result.no_image_marked > 0 ? `, ${result.no_image_marked} marked no-image` : '';
+  showToast(`Cropped ${result.cropped} images, updated ${result.updated} JSON refs${noImgMsg}`);
+});
+
+// ── Navigation ──
+pageSelect.addEventListener('change', () => loadPage(parseInt(pageSelect.value)));
+document.getElementById('prevBtn').addEventListener('click', () => {
+  if (currentPageIdx > 0) loadPage(currentPageIdx - 1);
+});
+document.getElementById('nextBtn').addEventListener('click', () => {
+  if (currentPageIdx < pages.length - 1) loadPage(currentPageIdx + 1);
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (tagPopup) {
+    if (e.key === 'Escape') cancelTag();
+    return;
+  }
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+  if (e.key === 'ArrowLeft') {
+    if (currentPageIdx > 0) loadPage(currentPageIdx - 1);
+  } else if (e.key === 'ArrowRight') {
+    if (currentPageIdx < pages.length - 1) loadPage(currentPageIdx + 1);
+  } else if (e.key === 'z' && (e.ctrlKey || e.metaKey)) {
+    // Undo last annotation
+    const page = pages[currentPageIdx];
+    const anns = annotations[page.filename] || [];
+    if (anns.length > 0) {
+      anns.pop();
+      if (anns.length === 0) delete annotations[page.filename];
+      redraw();
+      updateSidebar();
+      autoSave();
+    }
+  }
+});
+
+// Resize handling
+window.addEventListener('resize', () => {
+  if (pageImage && pageImage.complete) {
+    fitCanvas();
+    redraw();
+  }
+});
+
+// Toast
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+// Go
+init();
+</script>
+</body>
+</html>

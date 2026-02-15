@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japanese Driver's License Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HOME -->
+  <section id="home" class="view active">
+    <h1>JP Driver's License Practice</h1>
+    <div class="progress-bar-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+    <p id="progress-text" class="progress-text"></p>
+
+    <div class="filter-buttons">
+      <button class="btn filter-btn active" data-filter="all">All (880)</button>
+      <button class="btn filter-btn" data-filter="lp">Learner's Permit (250)</button>
+      <button class="btn filter-btn" data-filter="dl">Driver's License (540)</button>
+      <button class="btn filter-btn" data-filter="danger">Danger (90)</button>
+    </div>
+
+    <button id="start-btn" class="btn btn-primary btn-large">Start Studying</button>
+
+    <div class="home-links">
+      <button class="btn btn-secondary" onclick="showView('reference')">Reference Material</button>
+      <button class="btn btn-secondary" onclick="showView('stats')">Statistics</button>
+    </div>
+  </section>
+
+  <!-- STUDY -->
+  <section id="study" class="view">
+    <div class="study-header">
+      <button class="btn btn-back" onclick="showView('home')">Back</button>
+      <span id="study-counter" class="study-counter"></span>
+    </div>
+
+    <div id="question-card" class="card">
+      <div id="question-source" class="question-source"></div>
+      <img id="question-image" class="question-image" style="display:none" alt="Question image">
+      <div id="question-scenario" class="question-scenario" style="display:none"></div>
+      <p id="question-text" class="question-text"></p>
+    </div>
+
+    <div id="answer-buttons" class="answer-buttons">
+      <button class="btn btn-true" onclick="submitAnswer('T')">TRUE</button>
+      <button class="btn btn-false" onclick="submitAnswer('F')">FALSE</button>
+    </div>
+
+    <div id="result-panel" class="result-panel" style="display:none">
+      <div id="result-banner" class="result-banner"></div>
+      <p id="result-explanation" class="result-explanation"></p>
+      <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+    </div>
+  </section>
+
+  <!-- REFERENCE -->
+  <section id="reference" class="view">
+    <div class="study-header">
+      <button class="btn btn-back" onclick="showView('home')">Back</button>
+      <h2 class="view-title">Reference Material</h2>
+    </div>
+    <div id="reference-content"></div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="view">
+    <div class="study-header">
+      <button class="btn btn-back" onclick="showView('home')">Back</button>
+      <h2 class="view-title">Statistics</h2>
+    </div>
+    <div id="stats-content"></div>
+    <button class="btn btn-danger" id="reset-btn" onclick="resetProgress()">Reset All Progress</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

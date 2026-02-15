@@ -1,0 +1,1046 @@
+{
+  "exam_type": "drivers_license",
+  "exam_number": 2,
+  "total_questions": 95,
+  "passing_score": 90,
+  "time_limit_minutes": 50,
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text": "Drivers do not need to be concerned about other drivers or pedestrians in the traffic as long as they are observing traffic regulations.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is important to maintain the attitude of give-and-take and consideration for other drivers or pedestrians in the traffic.",
+      "image_file": null
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text": "When driving a two-wheeled vehicle, a driver should hold the handlebars lightly, with his/her wrists positioned downward, pressing the bars slightly forward within the grip.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text": "A driver should not generate annoying loud noises, make jackrabbit starts, accelerate suddenly, or race the engine.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "It is prohibited to drive making extremely loud noises that would disturb others.",
+      "image_file": null
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text": "Irrespective of the type of motor vehicle, a driver should cover any loads and packages they are carrying with a cover sheet in order to prevent debris from falling from the vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text": "Drivers should not park on steep downward slopes, but they can park on steep upward slopes.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Parking and stopping is prohibited on steep uphill slopes and downhill slopes.",
+      "image_file": null
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text": "It would be dangerous to apply engine braking excessively on a long downward slope because the brakes will fail.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "No matter how much engine braking is applied, it would not lead to the breakdown of the braking mechanisms.",
+      "image_file": null
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text": "When the traffic sign shown on the right is displayed, vehicles with seating capacity over 11 are not allowed to pass through the street, but vehicles with a seating capacity of 10 or less may pass through.",
+      "has_image": true,
+      "image_description": "A traffic sign showing a restriction for large vehicles (bus symbol with restriction marking).",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/dl2_q07.png"
+    },
+    {
+      "number": 8,
+      "type": "true_false",
+      "text": "Child seats are effective not only in reducing injuries in an accident, but also in preventing children from interfering with driving.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "Use the child seats properly by following the instructions of the manufacture.",
+      "image_file": null
+    },
+    {
+      "number": 9,
+      "type": "true_false",
+      "text": "When riding a two-wheeled vehicle in a priority lane for route buses, you kept on going even though you saw a kindergarten bus approaching from behind because the bus was not one of the priority vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Kindergarten buses are priority vehicles. You must leave the priority lane immediately if you see them approaching.",
+      "image_file": null
+    },
+    {
+      "number": 10,
+      "type": "true_false",
+      "text": "When cornering on two-wheeled vehicles, the rider should naturally tilt the motorcycle instead of steering the handlebars.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "When going around curves, you should maneuver as the passage describes.",
+      "image_file": null
+    },
+    {
+      "number": 11,
+      "type": "true_false",
+      "text": "When a streetcar is stopped at a station located inside a safety zone, you must stop behind the streetcar and wait until all the passengers have finished getting on and off.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may proceed at a reduced speed when you pass by safety zones.",
+      "image_file": null
+    },
+    {
+      "number": 12,
+      "type": "true_false",
+      "text": "If you detected any slack or a spongy feeling when you depress the brake pedal of a four-wheeled vehicles, it is a sign that the brakes are working effectively.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "A slack or spongy brake pedal is a sign that the brakes are faulty.",
+      "image_file": null
+    },
+    {
+      "number": 13,
+      "type": "true_false",
+      "text": "When you drive a four-wheeled vehicle with automatic transmission, you do not have to pay close attention to the change lever because this type of car basically runs with the handling of the accelerator pedal and brake pedal.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must also pay attention to the change lever.",
+      "image_file": null
+    },
+    {
+      "number": 14,
+      "type": "true_false",
+      "text": "While riding a two-wheeled vehicle, you felt an earthquake, so you pulled over to the left side of the road, locked the handlebars and left to find shelter.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not leave the vehicle without putting locks on it.",
+      "image_file": null
+    },
+    {
+      "number": 15,
+      "type": "true_false",
+      "text": "It is prohibited to stop or park inside tunnels regardless of their width, or the presence of vehicular lanes.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not stop or park inside any tunnels.",
+      "image_file": null
+    },
+    {
+      "number": 16,
+      "type": "true_false",
+      "text": "When you drive a vehicle carrying loads such as shown on the right, you are required to obtain a permit from the police chief having jurisdiction over the place of departure.",
+      "has_image": true,
+      "image_description": "A truck carrying a load that extends beyond the vehicle dimensions, with measurements showing 10 meters length and 2 meters width.",
+      "correct_answer": "F",
+      "explanation": "You need a permit because the load size exceeds one tenth of the length of the vehicle.",
+      "image_file": "question_images/dl2_q16.png"
+    },
+    {
+      "number": 17,
+      "type": "true_false",
+      "text": "When you drive at night, it is advisable to focus your eyes up close because the field of vision is narrowed down at night.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You should try to look as far ahead as possible when driving at night.",
+      "image_file": null
+    },
+    {
+      "number": 18,
+      "type": "true_false",
+      "text": "You may enter the exclusive lanes for route buses if it is inevitable that you do so in order to circumvent dangers.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You may enter the exclusive lanes for route buses if it is inevitable that you do so in circumventing dangers.",
+      "image_file": null
+    },
+    {
+      "number": 19,
+      "type": "true_false",
+      "text": "When the hand signals of a police officer differ from that of the traffic light, you should follow the traffic light signals.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The hand signals of a police officer are given priority over the traffic light signals.",
+      "image_file": null
+    },
+    {
+      "number": 20,
+      "type": "true_false",
+      "text": "Both traffic signs shown on the right refer to the same meanings for the vehicles proceeding forward.",
+      "has_image": true,
+      "image_description": "Two traffic signs: one designates 'No Entry for Vehicles' and the other designates 'Closed to All Vehicles.'",
+      "correct_answer": "F",
+      "explanation": "The traffic signal on the left designates 'No Entry for Vehicles,' and the one on the right designates 'Closed to All Vehicles,' both of which regulate vehicles not to proceed forward.",
+      "image_file": "question_images/dl2_q20.png"
+    },
+    {
+      "number": 21,
+      "type": "true_false",
+      "text": "When you drive through water, and water gets into the braking system, this causes the brakes to work even more effectively.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The brakes may temporarily fail.",
+      "image_file": null
+    },
+    {
+      "number": 22,
+      "type": "true_false",
+      "text": "On the roads where there is not enough space on the left side of the road, you may cross into the right side of the road.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 23,
+      "type": "true_false",
+      "text": "When pedestrians or bicycles are crossing a pedestrian crossing or a bicycle crossing, you must slow down before the crossing.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop at the stop line before entering these crossings.",
+      "image_file": null
+    },
+    {
+      "number": 24,
+      "type": "true_false",
+      "text": "When a police officer gives a hand signal by holding out his arms horizontally, it is equivalent to a red traffic light for the traffic facing the police officer.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 25,
+      "type": "true_false",
+      "text": "When you inspect your tires you should check (1)the air pressure, (2)the wear and tear and (3)the depth of the tire treads.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 26,
+      "type": "true_false",
+      "text": "When you apply the brakes of two-wheeled vehicles you should apply the rear-wheel brake more firmly when the road surface is dry, and apply the front-wheel brake more firmly when the road surface is wet.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When the road surface is dry you should apply the front-wheel brake more firmly, and when the road surface is slippery apply the rear-wheel brake more firmly.",
+      "image_file": null
+    },
+    {
+      "number": 27,
+      "type": "true_false",
+      "text": "In the illustration shown on the right Vehicle A must wait inside the intersection until Vehicle B passes through.",
+      "has_image": true,
+      "image_description": "An intersection diagram showing Vehicle A and Vehicle B, where Vehicle A needs to determine right-of-way.",
+      "correct_answer": "F",
+      "explanation": "Even if Vehicle A enters the intersection prior to Vehicle B, Vehicle A must not impede the progress of traffic moving forward.",
+      "image_file": "question_images/dl2_q27.png"
+    },
+    {
+      "number": 28,
+      "type": "true_false",
+      "text": "The width of two-wheeled vehicles is narrow, so they could drive on the side strip of expressways when the traffic is congested.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Two-wheeled vehicles are not allowed to proceed on the side strips.",
+      "image_file": null
+    },
+    {
+      "number": 29,
+      "type": "true_false",
+      "text": "You must not cut in front of the vehicle which you have just overtaken.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "Make sure you can see the vehicle you have just overtaken in the rearview mirror before you move in front.",
+      "image_file": null
+    },
+    {
+      "number": 30,
+      "type": "true_false",
+      "text": "When you park beside a parking meter you must activate the meter immediately.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must activate the meter as soon as you park.",
+      "image_file": null
+    },
+    {
+      "number": 31,
+      "type": "true_false",
+      "text": "You should inspect vehicles for business use or large-size trucks for personal use every three months. Regular vehicles used for personal use should be inspected annually.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 32,
+      "type": "true_false",
+      "text": "The amount of brake fluid should be somewhere in between the top and bottom lines shown in the reserve tank.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 33,
+      "type": "true_false",
+      "text": "The traffic sign shown on the right indicates that there is a \"dead end\" ahead.",
+      "has_image": true,
+      "image_description": "A traffic sign with a yellow diamond shape and an exclamation mark, indicating 'Other Unexpected Dangers.'",
+      "correct_answer": "F",
+      "explanation": "The traffic sign in the question warns 'Other Unexpected Dangers.'",
+      "image_file": "question_images/dl2_q33.png"
+    },
+    {
+      "number": 34,
+      "type": "true_false",
+      "text": "You must not overtake inside tunnels regardless of whether or not there are vehicular lanes.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may overtake other vehicles inside tunnels with vehicular lanes.",
+      "image_file": null
+    },
+    {
+      "number": 35,
+      "type": "true_false",
+      "text": "When the vehicle in front of you gave a signal to move to the center of the road to turn right, there was a space on the right side of the vehicle so you passed on the right side of the vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The type of overtaking is extremely dangerous, therefore it is prohibited to do so.",
+      "image_file": null
+    },
+    {
+      "number": 36,
+      "type": "true_false",
+      "text": "When approaching an intersection or a curve with poor visibility at night, you should switch the high beams on and off quickly to warn other drivers or pedestrians.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 37,
+      "type": "true_false",
+      "text": "You may overtake at corners of the road with a clear view with no oncoming traffic.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may not overtake at corners of the road regardless of how good or bad the view is.",
+      "image_file": null
+    },
+    {
+      "number": 38,
+      "type": "true_false",
+      "text": "When proceeding on the main through lanes it is safer to drive using the white line on the left side of the lane as your guide and proceed on the section slightly to the left of the center of the vehicular lane you are proceeding in.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "When traveling on the main through lanes, follow the descriptions of the passage.",
+      "image_file": null
+    },
+    {
+      "number": 39,
+      "type": "true_false",
+      "text": "Even on roads where the left side of the road is less than 6 meters in width with a good view, you must not cross over the solid yellow halfway line for overtaking.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 40,
+      "type": "true_false",
+      "text": "The traffic sign shown on the right indicates that there is a bicycle crossing ahead.",
+      "has_image": true,
+      "image_description": "A traffic sign showing a bicycle crossing symbol.",
+      "correct_answer": "T",
+      "explanation": "The traffic sign of the question refers to a 'bicycle crossing.'",
+      "image_file": "question_images/dl2_q40.png"
+    },
+    {
+      "number": 41,
+      "type": "true_false",
+      "text": "Halfway lines are not necessarily marked in the center of the road.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The location of the halfway lines sometimes changes depending on the roads.",
+      "image_file": null
+    },
+    {
+      "number": 42,
+      "type": "true_false",
+      "text": "Since two-wheeled vehicles are small, their speed appears slower than the actual speed, or the distance from them seems longer than the actual length, when looking at them from the driver's view of four-wheeled vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 43,
+      "type": "true_false",
+      "text": "When approaching a pedestrian crossing, stop when people are crossing the street. If people are about to cross the street, move ahead slowly and with caution.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When a pedestrian is about to cross a street, you need to come to a temporary stop to let the pedestrian cross.",
+      "image_file": null
+    },
+    {
+      "number": 44,
+      "type": "true_false",
+      "text": "When your vehicle is stuck inside a railroad crossing, you must first alert the operator of any approaching trains and remove the vehicle out of the crossing as quickly as possible.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 45,
+      "type": "true_false",
+      "text": "Using a cell-phone while driving helps you concentrate better on the surrounding traffic conditions and therefore you would not overlook dangers around you.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is dangerous to use a cell-phone while driving because your concentration level greatly diminishes.",
+      "image_file": null
+    },
+    {
+      "number": 46,
+      "type": "true_false",
+      "text": "The height limit for cargo on trucks, large-size trucks, medium-size cargo vehicles, and heavy special equipment is 3.8 meters from the ground.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 47,
+      "type": "true_false",
+      "text": "At an intersection having no traffic lights, and in which the intersecting roads are of the same width, you must not impede the progress of vehicles entering the intersection from your left.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "Vehicles must not impeded the progress of vehicles on their left.",
+      "image_file": null
+    },
+    {
+      "number": 48,
+      "type": "true_false",
+      "text": "When driving a long distance on a two-wheeled vehicle with automatic transmission, you do not have to take any rest because it does not burden you with the clutch operation.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must take a rest once every two hours even when you are riding a two-wheeled vehicle with automatic transmission.",
+      "image_file": null
+    },
+    {
+      "number": 49,
+      "type": "true_false",
+      "text": "When you approach a corner in a road you should slow down while you are still on the straight section of the road before it starts to curve.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You should slow down sufficiently.",
+      "image_file": null
+    },
+    {
+      "number": 50,
+      "type": "true_false",
+      "text": "When driving a four-wheeled vehicle with a child inside, you do not have to use a child seat as long as a guardian is holding the child in his/her arms.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is dangerous to hold a child in someone's arms when driving. The child must be safely strapped to a child seat.",
+      "image_file": null
+    },
+    {
+      "number": 51,
+      "type": "true_false",
+      "text": "You must not stop inside the side strip shown in the diagram even when you are letting the passengers get on and off.",
+      "has_image": true,
+      "image_description": "A diagram showing a road with a side strip marked as 'Left periphery of the road' with 'Pedestrian Side' and '1.5 meters Strip' labels, along with a halfway line.",
+      "correct_answer": "F",
+      "explanation": "This is a 'No Parking or Stopping Side Strip,' so you must not stop or park inside the side strip.",
+      "image_file": "question_images/dl2_q51.png"
+    },
+    {
+      "number": 52,
+      "type": "true_false",
+      "text": "The centrifugal force increases as the radius of a curve shortens, and increases in proportion to the square of the speed.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 53,
+      "type": "true_false",
+      "text": "When passing by a vehicle on a narrow road with one side of the road being the edge of a cliff, the vehicle on the side of the cliff should stop to yield the way to the oncoming vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The vehicle on the side of the cliff is to find a safe place to stop first and then yield the way.",
+      "image_file": null
+    },
+    {
+      "number": 54,
+      "type": "true_false",
+      "text": "When you drive by pedestrians, you must create a safe distance between or slow down.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 55,
+      "type": "true_false",
+      "text": "In areas where the traffic sign shown on the right is present, vehicles must not pass through, but pedestrians may pass through.",
+      "has_image": true,
+      "image_description": "A traffic sign indicating a vehicle restriction area.",
+      "correct_answer": "T",
+      "explanation": "It indicates that pedestrians, vehicles, nor streetcars may pass through.",
+      "image_file": "question_images/dl2_q55.png"
+    },
+    {
+      "number": 56,
+      "type": "true_false",
+      "text": "If a person drives after his/her driver's license has been revoked, it is equivalent to driving without a license.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 57,
+      "type": "true_false",
+      "text": "Mini-cars, regular-size motorcycles of 125cc or less and mopeds (motorized bicycles) must not enter expressways.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 58,
+      "type": "true_false",
+      "text": "You must not park your vehicle continuously in the same spot on public roads for more than 12 hours during the day, or 8 hours at night.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 59,
+      "type": "true_false",
+      "text": "When the traffic light is indicating a green light, vehicles may go forward or turn left, however, turning right is not allowed.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When the traffic light is green, vehicles may go forward, turn left, or turn right.",
+      "image_file": null
+    },
+    {
+      "number": 60,
+      "type": "true_false",
+      "text": "Unless otherwise indicated by a traffic sign or a pavement marking on a public road, the maximum speed limit for a vehicle, equipped with the towing device hauling another vehicle which is also equipped with the device, is 60km/h.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 61,
+      "type": "true_false",
+      "text": "The maximum load size limit for mopeds is up to the total length of the handlebars (measuring from the left edge to the right edge of the handlebars.)",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Mopeds may carry a load that is the width of the load-carrying equipment plus 0.15 meter extending on either side of the equipment.",
+      "image_file": null
+    },
+    {
+      "number": 62,
+      "type": "true_false",
+      "text": "Drivers of two-wheeled vehicles who have had a regular motorcycle license for less than a year may not ride double even when the vehicle has a pillion seat.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "As described in the passage, you must not ride double.",
+      "image_file": null
+    },
+    {
+      "number": 63,
+      "type": "true_false",
+      "text": "If no maximum speed limit is indicated by traffic signs or pavement markings on the main through lanes of national expressways with a median strip, the maximum speed limit is 100km/h.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 64,
+      "type": "true_false",
+      "text": "When you felt the rear tires of your vehicle skidding sideways, you firmly stepped on the brake pedal and steered in the opposite direction of the skidding.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When you feel the rear tires of your vehicle skidding sideways, you must steer in the direction of the skidding and do not apply the brakes.",
+      "image_file": null
+    },
+    {
+      "number": 65,
+      "type": "true_false",
+      "text": "In the areas where the pavement marking is as shown in the diagram, vehicles may shift lanes as depicted by the arrow.",
+      "has_image": true,
+      "image_description": "A diagram showing a road with a halfway line and an arrow indicating a lane change direction.",
+      "correct_answer": "F",
+      "explanation": "You must not change lanes because there is a yellow line on the side of the road the vehicle is proceeding.",
+      "image_file": "question_images/dl2_q65.png"
+    },
+    {
+      "number": 66,
+      "type": "true_false",
+      "text": "When you drive by safety zones, you must slow down only when pedestrians are present.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 67,
+      "type": "true_false",
+      "text": "On roads having two vehicular lanes going in the same direction, vehicles must proceed on the left vehicular lane.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 68,
+      "type": "true_false",
+      "text": "A person who has a large-size vehicle license may operate medium-size vehicles, semi medium-size vehicles, regular vehicles and mopeds.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The holder of a large-size vehicle license is entitled to drive large vehicles, medium-size vehicles, regular vehicles, light special equipment, and mopeds.",
+      "image_file": null
+    },
+    {
+      "number": 69,
+      "type": "true_false",
+      "text": "At an intersection regulated by the traffic sign shown on the right, large-size trucks may pass through.",
+      "has_image": true,
+      "image_description": "A traffic sign with an upward arrow indicating a direction restriction.",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/dl2_q69.png"
+    },
+    {
+      "number": 70,
+      "type": "true_false",
+      "text": "You are prohibited from cutting in front of, or driving too close to vehicles displaying a \"Learner Driver\" mark, however, it is not prohibited from doing so to vehicles displaying \"Senior Driver\" or \"Physically Disabled Driver\" marks.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is also prohibited to cut in front or drive too close to vehicles displaying 'Senior Driver' or 'Physically Disabled Driver' marks.",
+      "image_file": null
+    },
+    {
+      "number": 71,
+      "type": "true_false",
+      "text": "When you drove by a pedestrian walking with the aid of a seeing-eye dog, you reduced the speed to 30km/h, because you were unable to keep a safe distance from that person.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop or slow down to let the person pass safely.",
+      "image_file": null
+    },
+    {
+      "number": 72,
+      "type": "true_false",
+      "text": "You must not pass or switch lanes to overtake vehicles or mopeds at railroad crossings or within 30 meters of railroad crossings.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 73,
+      "type": "true_false",
+      "text": "If there is an obstacle on the road ahead, the driver on the side of the obstacle always has the right of way over the oncoming vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The driver on the side of the obstacle must yield the way to the oncoming vehicle when passing.",
+      "image_file": null
+    },
+    {
+      "number": 74,
+      "type": "true_false",
+      "text": "When you cross a sidewalk or a side strip to enter a building located along the road, you must slow down regardless of whether or not there are pedestrians.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop regardless of the presence or absence of pedestrians.",
+      "image_file": null
+    },
+    {
+      "number": 75,
+      "type": "true_false",
+      "text": "A towing license is required in addition to a large-size vehicle license when a truck equipped with the towing device is towing a vehicle with a total weight of 750kg or more.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "A towing license is required as described in the passage.",
+      "image_file": null
+    },
+    {
+      "number": 76,
+      "type": "true_false",
+      "text": "If the engine stalls at a railroad crossing, four-wheeled vehicles with automatic transmission or clutch start manual transmission would not be able to leave the railroad crossing using the starter motor.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 77,
+      "type": "true_false",
+      "text": "When a route bus is signaling to move forward after dropping passengers off at a bus station, vehicles behind the bus must slow down or stop and wait if they can do so without coming to a sudden halt or making a sharp turn.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The vehicles behind the bus must not impede the progress of the bus.",
+      "image_file": null
+    },
+    {
+      "number": 78,
+      "type": "true_false",
+      "text": "If someone has suffered injury to the head, he/she must be taken to a hospital even before an ambulance arrives at the scene.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "If a person has suffered an injury to the head, he/she must not be moved unless it is absolutely imperative to do so.",
+      "image_file": null
+    },
+    {
+      "number": 79,
+      "type": "true_false",
+      "text": "In the areas where the traffic sign shown on the right is indicated, it is correct to proceed as depicted by the arrow.",
+      "has_image": true,
+      "image_description": "A traffic sign indicating designated directions with an arrow showing the correct path.",
+      "correct_answer": "T",
+      "explanation": "The traffic sign of the question regulates vehicles to 'Proceed only in the designated directions,' so you must proceed as depicted by the arrow.",
+      "image_file": "question_images/dl2_q79.png"
+    },
+    {
+      "number": 80,
+      "type": "true_false",
+      "text": "When the arm of a driver is extended out of the vehicle downward and diagonally, his/her hand signal means that he/she is intending to back up.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The hand signal indicates that the driver is about to stop or slow down.",
+      "image_file": null
+    },
+    {
+      "number": 81,
+      "type": "true_false",
+      "text": "Riders of two-wheeled vehicles tend to focus their eyes on the center of the road in the close vicinity ahead, and tend to receive less information from the traffic laterally or far ahead compared to drivers of four-wheeled vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 82,
+      "type": "true_false",
+      "text": "When driving an automobile, you must carry your driver's license with you, but you do not have to carry the vehicle inspection certificate or the insurance certificate.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must have the vehicle inspection certificate and the insurance certificate with you when you drive.",
+      "image_file": null
+    },
+    {
+      "number": 83,
+      "type": "true_false",
+      "text": "It would be dangerous for a two-wheeled vehicle, which has been proceeding on the leftmost lane of the road to suddenly shift lanes toward the center to make a right turn.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The two-wheeled vehicles must move to the center gradually before executing the right turn.",
+      "image_file": null
+    },
+    {
+      "number": 84,
+      "type": "true_false",
+      "text": "Since two-wheeled vehicles must stay on the left side of roads, when they overtake other vehicles, they must do so on the left side of the vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "As a general rule, two-wheelers must overtake on the right side of the vehicle they are about to overtake.",
+      "image_file": null
+    },
+    {
+      "number": 85,
+      "type": "true_false",
+      "text": "In the areas where the traffic sign shown on the right is present, you must not cross over the halfway line for overtaking other vehicles.",
+      "has_image": true,
+      "image_description": "A traffic sign with a red circle indicating a no-overtaking restriction.",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/dl2_q85.png"
+    },
+    {
+      "number": 86,
+      "type": "true_false",
+      "text": "You must slow down when an emergency vehicle is approaching you in areas other than at or around intersections.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must pull over to the left side of the road to give way to the emergency vehicle.",
+      "image_file": null
+    },
+    {
+      "number": 87,
+      "type": "true_false",
+      "text": "You must not make U-turns, cross the median strip or enter into the oncoming lane on the main through lanes, however, you are allowed to back up if it is just for the minimum distance required.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not back up even for a short distance.",
+      "image_file": null
+    },
+    {
+      "number": 88,
+      "type": "true_false",
+      "text": "Sometimes it is safer to go off the road than to risk colliding into an oncoming vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You may go off the road to a safer area to avoid colliding into other vehicles.",
+      "image_file": null
+    },
+    {
+      "number": 89,
+      "type": "true_false",
+      "text": "The maximum speed limit on the main through lanes of national expressways, whose lanes going in opposite directions are not divided by a halfway line, is the same for proceeding on public roads.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The maximum speed limit for the expressways described in the passage is the same for that of public roads.",
+      "image_file": null
+    },
+    {
+      "number": 90,
+      "type": "true_false",
+      "text": "Vehicles should always proceed at the maximum speed allowed so as to create a smooth flow of traffic.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must take traffic, weather, and visibility conditions into account and drive at a safe speed.",
+      "image_file": null
+    }
+  ],
+  "danger_questions": [
+    {
+      "number": 91,
+      "scenario": "You are driving at a speed of 30km/h. What do you have to keep in mind?",
+      "image_description": "A residential street scene viewed from the driver's seat. A child is playing on the left side of the road near buildings, and there appears to be an alley on the right side. The road is narrow with buildings on both sides.",
+      "sub_questions": [
+        {
+          "number": 1,
+          "text": "Proceed at a reduced speed because a child, who is totally absorbed in playing, may dash out onto the road.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 2,
+          "text": "Proceed at a reduced speed at which you could come to an immediate halt in case a child or a bicycle dashes out onto the road from the alley on the right.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 3,
+          "text": "Proceed at the same speed while sounding the car horn.",
+          "correct_answer": "F",
+          "explanation": "Children may be startled at the sound of the car horn and may run into your vehicle. Think of a child as the sign of danger."
+        }
+      ],
+      "image_file": "question_images/dl2_q91.png",
+      "has_image": true
+    },
+    {
+      "number": 92,
+      "scenario": "You are passing through the intersection at a speed of 30km/h. What do you have to keep in mind if there are vehicles following you?",
+      "image_description": "A view from the driver's seat approaching an intersection. There is a pedestrian crossing ahead with a person walking across. An oncoming vehicle (red car) is visible, and other vehicles are behind you. Traffic signals are visible.",
+      "sub_questions": [
+        {
+          "number": 1,
+          "text": "Proceed at a reduced speed because an oncoming vehicle hidden behind the automobile in front of you may attempt to make a right turn and stop right before the pedestrian walking across the pedestrian crossing.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 2,
+          "text": "There are vehicles behind you so step on the brake pedal several times in succession, slow down, and proceed while giving attention to the oncoming traffic.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 3,
+          "text": "There are vehicles behind you so proceed forward at the same speed while observing the traffic light.",
+          "correct_answer": "F",
+          "explanation": "You might collide with the oncoming vehicle if it makes a right turn."
+        }
+      ],
+      "image_file": "question_images/dl2_q92.png",
+      "has_image": true
+    },
+    {
+      "number": 93,
+      "scenario": "You are driving at a speed of 40km/h. What do you have to keep in mind while driving?",
+      "image_description": "A snowy road scene viewed from the driver's seat. The road is covered with snow, and there are tire tracks visible. The road appears to curve ahead, and there are vehicles ahead on the road. Snow banks are visible on both sides.",
+      "sub_questions": [
+        {
+          "number": 1,
+          "text": "In areas where it has been snowing, follow in the tire tracks of preceding vehicles so as not to skid sideways.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 2,
+          "text": "Since you have equipped the tires for driving in snowy conditions, proceed at the same speed as if it were not snowing.",
+          "correct_answer": "F",
+          "explanation": "You are at risk of skidding sideways. Even if your vehicle is equipped with chains or snow tires, you might still need to slow down, and maintain a safe distance between you and the car in front."
+        },
+        {
+          "number": 3,
+          "text": "Other vehicles may continue to follow behind the oncoming vehicle around the curve, so stay on the left side of the road away from the wheel tracks of the preceding cars.",
+          "correct_answer": "F",
+          "explanation": "You are at risk of skidding sideways on roads where snow lies thick."
+        }
+      ],
+      "image_file": "question_images/dl2_q93.png",
+      "has_image": true
+    },
+    {
+      "number": 94,
+      "scenario": "You are driving at a speed of 40km/h. What do you have to keep in mind while driving?",
+      "image_description": "A highway scene viewed from the driver's seat. There is a large truck ahead in the left lane, and a vehicle appears to be overtaking or about to overtake the truck. Another vehicle is visible behind you. The road has multiple lanes.",
+      "sub_questions": [
+        {
+          "number": 1,
+          "text": "Since the vehicle behind you is approaching close to you, overtake the truck right after the vehicle in front of you has finished overtaking it.",
+          "correct_answer": "F",
+          "explanation": "It is dangerous to initiate overtaking without confirming the safety of the traffic ahead."
+        },
+        {
+          "number": 2,
+          "text": "It is not certain whether or not the vehicle in front will overtake the truck, so keep on driving for some time while keeping a safe distance from the vehicle ahead of you.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 3,
+          "text": "Get closer to the vehicle in front in order to prevent another vehicle from cutting in front of you.",
+          "correct_answer": "F",
+          "explanation": "You should keep a safe distance from the car in front, and in some cases, you may want to stay on the left to yield the right side of the road for vehicles overtaking."
+        }
+      ],
+      "image_file": "question_images/dl2_q94.png",
+      "has_image": true
+    },
+    {
+      "number": 95,
+      "scenario": "You are driving at a speed of 30km/h. What do you have to keep in mind when traveling straight through?",
+      "image_description": "An intersection scene viewed from the driver's seat. A vehicle is approaching from the left side of the intersection. The driver is traveling straight through the intersection. Traffic conditions and road markings are visible.",
+      "sub_questions": [
+        {
+          "number": 1,
+          "text": "If you keep on going straight at the same speed, you might collide with the vehicle coming from the left, so reduce speed and yield the way.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 2,
+          "text": "Stop before entering the intersection because there is a vehicle coming from the left.",
+          "correct_answer": "T",
+          "explanation": "The passage of the question is correct."
+        },
+        {
+          "number": 3,
+          "text": "The vehicle coming from the left has already noticed that you are approaching, so keep on going straight at the same speed.",
+          "correct_answer": "F",
+          "explanation": "You can never tell for sure that the vehicle coming from the left has noticed you are approaching."
+        }
+      ],
+      "image_file": "question_images/dl2_q95.png",
+      "has_image": true
+    }
+  ]
+}

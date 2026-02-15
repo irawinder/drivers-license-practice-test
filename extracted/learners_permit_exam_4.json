@@ -1,0 +1,459 @@
+{
+  "exam_type": "learners_permit",
+  "exam_number": 4,
+  "total_questions": 50,
+  "passing_score": 45,
+  "time_limit_minutes": 30,
+  "questions": [
+    {
+      "number": 1,
+      "text": "You must not drive when you are under the influence of alcohol, but the use of stimulant drugs while driving is recommended because they help you stay alert.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It goes without saying that you must not drink alcohol, or take stimulants or other drugs while driving.",
+      "image_file": null
+    },
+    {
+      "number": 2,
+      "text": "At an intersection, you must give due caution to vehicles or pedestrians that may be blocked from view by other vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 3,
+      "text": "You parked your vehicle for 60 minutes from one o'clock to two o'clock in the afternoon on a road regulated by the traffic sign shown on the left.",
+      "has_image": true,
+      "image_description": "A parking regulation traffic sign showing 'P' with '60' below it, indicating a 60-minute parking limit.",
+      "correct_answer": "T",
+      "explanation": "You may park your vehicle for a duration of less than 60 minutes from 8 a.m. to 8 p.m. in the area regulated by this traffic sign.",
+      "image_file": "question_images/lp4_q03.png"
+    },
+    {
+      "number": 4,
+      "text": "When proceeding near an intersection, and an emergency vehicle approaches you, you should move away from the intersection, move to the left side of the road and proceed at a reduced speed.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must move away from the intersection, and pull over to the left side of the road.",
+      "image_file": null
+    },
+    {
+      "number": 5,
+      "text": "It is not advisable to shift lanes too often on roads with vehicular lanes, because doing so would inconvenience the vehicles behind and may induce accidents.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 6,
+      "text": "On the pedestrian side strip designated by the pavement markings shown in the diagram, bicycles may pass through if there is no pedestrian around.",
+      "has_image": true,
+      "image_description": "A diagram showing pavement markings for a pedestrian side strip, with labels indicating 'Line Pedestrian Side Strip', 'Pedestrian Crossing', and 'Immediate Area'.",
+      "correct_answer": "F",
+      "explanation": "The pavement markings shown in the question refer to \"Pedestrian Side Strip\" and so bicycles may not pass through.",
+      "image_file": "question_images/lp4_q06.png"
+    },
+    {
+      "number": 7,
+      "text": "Regulatory signs prohibit specific driving conduct, or designate drivers and pedestrians to observe specific traffic regulations.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 8,
+      "text": "When parking your vehicle in a parking space, it is advisable to enter the space head-on, and exit by backing up.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is dangerous to leave a parking space by backing up. You should enter the parking space by backing up and leave the space head on.",
+      "image_file": null
+    },
+    {
+      "number": 9,
+      "text": "The pavement markings shown on the left designate that there is either a pedestrian crossing or a bicycle crossing ahead.",
+      "has_image": true,
+      "image_description": "Diamond-shaped pavement markings (two diamond shapes stacked vertically) painted on the road surface.",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/lp4_q09.png"
+    },
+    {
+      "number": 10,
+      "text": "When a child is walking unattended, you should sound your car horn and pass the child as fast as possible.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must either stop or slow down when passing by a child.",
+      "image_file": null
+    },
+    {
+      "number": 11,
+      "text": "In areas regulated by the traffic sign shown on the left, vehicles may not proceed in any direction other than those indicated by the arrows.",
+      "has_image": true,
+      "image_description": "A designated direction traffic sign (blue circular sign with white arrows) showing permitted directions of travel.",
+      "correct_answer": "T",
+      "explanation": "The traffic sign shown in the question regulates the traffic to proceed only in the directions of the arrows.",
+      "image_file": "question_images/lp4_q11.png"
+    },
+    {
+      "number": 12,
+      "text": "The stopping distance refers to the distance from the point at which the brakes are applied to the point at which the vehicle comes to a complete halt.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The stopping distance refers to the distance from the point at which the driver detects danger, applies the brakes and the vehicle comes to a complete halt.",
+      "image_file": null
+    },
+    {
+      "number": 13,
+      "text": "Vehicles may drive across bicycle crossings when entering or exiting an establishment located on the other side of it.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 14,
+      "text": "When you approach the intersection from the direction of the arrow depicted in the diagram and attempt to execute a left turn at the intersection, you may turn left as long as the traffic light indicated in the position 7 is green even if the traffic light indicated in the position 1 is red.",
+      "has_image": true,
+      "image_description": "A diagram showing an intersection with traffic lights at different positions, with an arrow indicating the direction of approach. Position 7 and position 1 refer to specific traffic light locations at the intersection.",
+      "correct_answer": "T",
+      "explanation": "If you have already initiated making a left turn, you may complete your turn even when the traffic light for turning left turns red.",
+      "image_file": "question_images/lp4_q14.png"
+    },
+    {
+      "number": 15,
+      "text": "You may overtake a vehicle proceeding ahead of you at a corner of the road with sufficient space for overtaking.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may not overtake other vehicles at corners.",
+      "image_file": null
+    },
+    {
+      "number": 16,
+      "text": "You must take precautions against heavy winds when passing through areas indicated by this traffic sign.",
+      "has_image": true,
+      "image_description": "A yellow warning traffic sign depicting crosswinds or heavy winds (showing a windsock or wind symbol).",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/lp4_q16.png"
+    },
+    {
+      "number": 17,
+      "text": "As long as the driver of a vehicle with automatic transmission understands the basics of driving techniques, he/she can take driving lightly because it poses fewer dangers to the driver compared to driving a vehicle with manual transmission.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Driving a vehicle with automatic transmission may be less demanding compared to driving a vehicle with manual transmission, however, you must not take driving lightly.",
+      "image_file": null
+    },
+    {
+      "number": 18,
+      "text": "When you attempt to shift lanes, you must first signal your intention and then check the traffic conditions behind you with the mirrors for safety.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must first confirm safety in all directions and then signal your intention of changing lanes.",
+      "image_file": null
+    },
+    {
+      "number": 19,
+      "text": "Two-wheeled vehicles may always proceed in the exclusive lane for route buses, if there are no route buses in the vicinity.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Two-wheeled vehicles may proceed in the exclusive lane for route buses only when the driver is making a left or right turn, or if there is a road construction or similar blocking the way.",
+      "image_file": null
+    },
+    {
+      "number": 20,
+      "text": "If the traffic is light, you are allowed to make a U-turn in areas where \"No U-turn\" is designated because doing so would not pose any dangers to anyone.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Regardless of how light or heavy the traffic is you must not make a U-turn in areas where it is regulated by the traffic sign.",
+      "image_file": null
+    },
+    {
+      "number": 21,
+      "text": "In areas regulated by the traffic sign shown on the left, you must stop before the stop line, but once you have stopped, you have the right of way over the cross street, so you may proceed first.",
+      "has_image": true,
+      "image_description": "A Japanese 'Stop' (tomare/止まれ) regulatory traffic sign, which is a red inverted triangle with Japanese characters.",
+      "correct_answer": "F",
+      "explanation": "You must stop and you must not impede the progress of traffic on the crossroad.",
+      "image_file": "question_images/lp4_q21.png"
+    },
+    {
+      "number": 22,
+      "text": "When driving by a vehicle which has stopped before a pedestrian crossing, you must slow down and pass beside the stopped vehicle before you can move ahead of it.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "In this case, you must always stop before you can move ahead of the stopped vehicle.",
+      "image_file": null
+    },
+    {
+      "number": 23,
+      "text": "When you catch up with a route bus, which has stopped at a bus station, you must wait behind the bus until it starts to move forward.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may pass the route bus with caution.",
+      "image_file": null
+    },
+    {
+      "number": 24,
+      "text": "On roads regulated by the traffic sign shown on the left, the rider of a large- or regular-size motorcycles may not ride double.",
+      "has_image": true,
+      "image_description": "A traffic sign showing a no-two-person-riding restriction for motorcycles (a circular sign with a motorcycle symbol).",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/lp4_q24.png"
+    },
+    {
+      "number": 25,
+      "text": "You must not apply sudden braking unless it is inevitable that you do so in order to alleviate danger.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 26,
+      "text": "You must proceed on the left side of roads without vehicular lanes, except when you attempt to overtake other vehicles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must observe the general rule of \"Keeping to the left.\"",
+      "image_file": null
+    },
+    {
+      "number": 27,
+      "text": "When you catch up with a streetcar, which has stopped at a streetcar station so as to let the passengers get on and off, you must wait behind; however, when there is a safety zone provided you may proceed at the same speed without having to slow down even if there are passengers getting on and off.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must slow down when you pass a safety zone.",
+      "image_file": null
+    },
+    {
+      "number": 28,
+      "text": "Even when you are moving at a reduced speed keeping a short distance from the vehicle in front because the traffic ahead is heavily congested, you must not stop inside the pavement marking shown on the left.",
+      "has_image": true,
+      "image_description": "A pavement marking showing a 'No Stopping Zone' pattern (hatched/cross-hatched marking on the road surface).",
+      "correct_answer": "T",
+      "explanation": "The pavement markings in the question regulate \"No Stopping Zone,\" and vehicles must not stop inside this area.",
+      "image_file": "question_images/lp4_q28.png"
+    },
+    {
+      "number": 29,
+      "text": "You do not need to be concerned about other drivers or pedestrians in the traffic as long as you are observing the traffic rules.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "It is also important to have consideration for other drivers or pedestrians in the traffic.",
+      "image_file": null
+    },
+    {
+      "number": 30,
+      "text": "At a railroad crossing regulated by a traffic light, you may cross it without having to stop or confirm safety before crossing, as long as the traffic light is green.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You do not always have to stop but you must check for safety.",
+      "image_file": null
+    },
+    {
+      "number": 31,
+      "text": "A driver overtook a truck inside a tunnel with vehicular lanes.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "It is not prohibited to overtake other vehicles inside tunnels with vehicular lanes.",
+      "image_file": null
+    },
+    {
+      "number": 32,
+      "text": "You must exercise caution when driving through puddles or on muddy roads, so as not to splash water or mud and get people on the road dirty.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must slow down and exercise due caution when proceeding in these areas.",
+      "image_file": null
+    },
+    {
+      "number": 33,
+      "text": "When approaching an intersection which has no traffic light and the two intersecting roads are of the same width as shown in the diagram, Regular Vehicle B must not impede the progress of Two-wheeled Vehicle A.",
+      "has_image": true,
+      "image_description": "A diagram showing an intersection of two roads of equal width with Vehicle A (a two-wheeled vehicle) approaching from the right and Vehicle B (a regular vehicle) approaching from another direction.",
+      "correct_answer": "F",
+      "explanation": "Regular Vehicle B must not impede the progress of Two-wheeled Vehicle A approaching from the left.",
+      "image_file": "question_images/lp4_q33.png"
+    },
+    {
+      "number": 34,
+      "text": "It is reasonable to assume that after seeing a ball bouncing out of the corner of a road, it is very likely that a child may dash out after the ball.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must proceed in anticipation of a child dashing out from the corner.",
+      "image_file": null
+    },
+    {
+      "number": 35,
+      "text": "You may drive across a pedestrian walkway designated as a walkway for school children, if you have received permission to cross from the school principal.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must have a permit issued from the chief of police, and not from the school principal.",
+      "image_file": null
+    },
+    {
+      "number": 36,
+      "text": "The mark shown on the left is displayed on the vehicles of licensed people who feel insecure about driving.",
+      "has_image": true,
+      "image_description": "A butterfly-shaped or clover-shaped mark (the Japanese 'beginner' or 'novice driver' mark, known as the Shoshinsha mark, or possibly the senior driver mark).",
+      "correct_answer": "F",
+      "explanation": "This mark is displayed by novice drivers, who have had a regular license for less than one year.",
+      "image_file": "question_images/lp4_q36.png"
+    },
+    {
+      "number": 37,
+      "text": "When driving across a pedestrian crossing or a bicycle crossing, you must always stop before the crossing even when there are no pedestrians or bicycles.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may proceed without altering the speed if there are no pedestrians or bicycles.",
+      "image_file": null
+    },
+    {
+      "number": 38,
+      "text": "People who have been licensed for driving large vehicles are qualified to drive large vehicles, medium-size vehicles, semi medium-size vehicles, regular vehicles, large size motorcycles, light special equipment, and mopeds (motorized bicycles).",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may not ride large-size motorcycles with a large vehicle license.",
+      "image_file": null
+    },
+    {
+      "number": 39,
+      "text": "A four-wheeled vehicle with automatic transmission, even when the accelerator pedal is not being depressed, the car will move forward by itself unless the brake pedal is applied. This is known as \"Creep\" phenomenon.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 40,
+      "text": "On the road shown in the diagram, you may proceed in the manner depicted by the arrow.",
+      "has_image": true,
+      "image_description": "A diagram showing a road with a halfway line (center line) and an arrow depicting a vehicle's path crossing over or shifting lanes, with lane markings visible.",
+      "correct_answer": "F",
+      "explanation": "You must not shift lanes because there is a yellow line on the side of the road you are driving on.",
+      "image_file": "question_images/lp4_q40.png"
+    },
+    {
+      "number": 41,
+      "text": "You may drive a microbus carrying 11 passengers with a regular driver's license.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may drive a vehicle with a riding capacity of up to 10 passengers with a regular driver's license.",
+      "image_file": null
+    },
+    {
+      "number": 42,
+      "text": "You must slow down at or around the top of a hill only where it is regulated by a traffic sign.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must always slow down at or around the top of a hill regardless of whether or not a traffic sign is present.",
+      "image_file": null
+    },
+    {
+      "number": 43,
+      "text": "While vehicles are proceeding in succession, and when a vehicle ahead stops at an intersection or a railroad crossing, it is advisable to cut in front of the stopped vehicle to avoid being caught up in the traffic congestion.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not cut in front of the stopped vehicle.",
+      "image_file": null
+    },
+    {
+      "number": 44,
+      "text": "In attempt to alleviate danger, and out of necessity, you closed in a vehicle from the side displaying the mark shown on the left.",
+      "has_image": true,
+      "image_description": "A mark displayed on vehicles driven by senior or elderly drivers (the senior driver's mark, also known as the 'koreisha' mark).",
+      "correct_answer": "T",
+      "explanation": "You may not cut in or pass too close to the vehicle displaying a senior driver's mark unless it is imperative that you do so.",
+      "image_file": "question_images/lp4_q44.png"
+    },
+    {
+      "number": 45,
+      "text": "When you turn left at an intersection, you may proceed ahead of any vehicle attempting to turn right, even if they reached the intersection before you.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not deliberately impede the progress of a vehicle turning right.",
+      "image_file": null
+    },
+    {
+      "number": 46,
+      "text": "When a police officer gives this hand signal shown in the diagram, the traffic coming from the directions indicated by the arrows, may proceed.",
+      "has_image": true,
+      "image_description": "A diagram showing a police officer giving a hand signal with arms extended, with arrows indicating the directions from which traffic may proceed.",
+      "correct_answer": "F",
+      "explanation": "For the traffic coming from the direction of the arrows, the officer's hand signal is equivalent to a red traffic light (stop).",
+      "image_file": "question_images/lp4_q46.png"
+    },
+    {
+      "number": 47,
+      "text": "The drivers of all vehicles must not only observe the traffic rules but also take out automobile insurance as a measure of precaution and always have first-aid tools at hand.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 48,
+      "text": "In areas where regulated by the traffic sign shown on the left, you may not change lanes for overtaking or passing.",
+      "has_image": true,
+      "image_description": "A traffic sign indicating 'No Overtaking' or 'No Passing' (a circular regulatory sign with a restriction symbol and Japanese text).",
+      "correct_answer": "T",
+      "explanation": "This traffic sign regulates \"No Overtaking,\" so the passage of the question is correct.",
+      "image_file": "question_images/lp4_q48.png"
+    },
+    {
+      "number": 49,
+      "text": "When the traffic ahead is heavily congested and you do not think it is possible to pass through a pedestrian crossing or a railroad crossing once you enter it. You must stay behind the crossing even when the traffic light turns green because a green light does not mean to \"Proceed.\"",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 50,
+      "text": "You should adjust the driver's seat of the four-wheeled vehicle so that your knee is stretched out when you step on the clutch pedal.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You should move the driver's seat to the position in which your knee is slightly bent when you step on the clutch pedal.",
+      "image_file": null
+    }
+  ]
+}

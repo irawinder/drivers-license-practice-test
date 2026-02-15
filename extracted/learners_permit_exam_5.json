@@ -1,0 +1,459 @@
+{
+  "exam_type": "learners_permit",
+  "exam_number": 5,
+  "total_questions": 50,
+  "passing_score": 45,
+  "time_limit_minutes": 30,
+  "questions": [
+    {
+      "number": 1,
+      "text": "A truck was parked on your side of the road and a regular-size motorcycle was coming toward you in the oncoming vehicular lane. You accelerated to pass the truck before the motorcycle had passed the section of the road where the truck was parked.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop behind the truck, let the motorcycle pass the section of the road on which the truck is parked, and then you may pass the truck safely.",
+      "image_file": null
+    },
+    {
+      "number": 2,
+      "text": "As long as you can check for safety of the traffic ahead, you may overtake other vehicles even in areas where it is prohibited to do so.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You may not overtake other vehicles in areas where it is prohibited to do so even when you can confirm safety of the traffic ahead.",
+      "image_file": null
+    },
+    {
+      "number": 3,
+      "text": "When overtaking other vehicles on a road with good visibility, and having the width of less than 6 meters in each direction, you may cross over the yellow halfway line into the oncoming lane, if there is no oncoming vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not cross over the yellow halfway line for overtaking.",
+      "image_file": null
+    },
+    {
+      "number": 4,
+      "text": "When a traffic light indicates a \"flashing red light,\" you must stop at the stop line.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must stop at the stop line, confirm safety, and then proceed forward.",
+      "image_file": null
+    },
+    {
+      "number": 5,
+      "text": "In areas regulated by the traffic sign shown in the diagram, you may neither park nor stop from 8:00 a.m. to 8:00 p.m.",
+      "has_image": true,
+      "image_description": "A circular traffic sign with a red border and a blue background featuring a red X, indicating no stopping or parking.",
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": "question_images/lp5_q05.png"
+    },
+    {
+      "number": 6,
+      "text": "When passing a school bus or kindergarten bus, which has stopped to drop the children off, you must always stop behind the bus and confirm safety.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must slow down, not stop, and check for safety before proceeding forward.",
+      "image_file": null
+    },
+    {
+      "number": 7,
+      "text": "When you start the engine of a vehicle with automatic transmission, you may shift the change lever to the \"N\" position, as long as the parking brake is engaged.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When starting the engine of the said vehicle, you must shift the change lever to the \"P\" position, even if the parking brake is engaged.",
+      "image_file": null
+    },
+    {
+      "number": 8,
+      "text": "After overtaking a vehicle, you should move back to the left lane as quickly as possible.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Only after you have gained enough space between you and the vehicle you overtook, are you allowed to move back to the left lane.",
+      "image_file": null
+    },
+    {
+      "number": 9,
+      "text": "Even on roads having no intersections nearby, you must stop to give way to an approaching emergency vehicle.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You do not have to always stop if you can yield the road to the emergency vehicle while proceeding on the left side of the road.",
+      "image_file": null
+    },
+    {
+      "number": 10,
+      "text": "When you were waiting for the traffic light to turn green at an intersection, the traffic light displayed the lights as shown in the diagram, so you proceeded forward.",
+      "has_image": true,
+      "image_description": "A traffic light showing a green arrow pointing left and a green arrow pointing forward, with the red circle light also illuminated.",
+      "correct_answer": "T",
+      "explanation": "The traffic light shown in the question indicates that the traffic can turn left or proceed forward.",
+      "image_file": "question_images/lp5_q10.png"
+    },
+    {
+      "number": 11,
+      "text": "Driver's licenses are classified into three different categories, namely, first-class license, second-class license, and moped (motorized bicycle) license.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Driver's licenses are classified into three different categories, namely, first-class license, second-class license, and learner's permit.",
+      "image_file": null
+    },
+    {
+      "number": 12,
+      "text": "The traffic sign shown in the diagram indicates that vehicles may park in areas regulated by this traffic sign.",
+      "has_image": true,
+      "image_description": "A circular traffic sign with a red border and a red diagonal line over text, indicating no parking (a 'No Parking' or 'No Stopping' sign with Japanese characters).",
+      "correct_answer": "F",
+      "explanation": "This traffic sign in the question refers to \"Stop.\" Therefore vehicles may not park here.",
+      "image_file": "question_images/lp5_q12.png"
+    },
+    {
+      "number": 13,
+      "text": "At an intersection with poor visibility to the left and right sides of the intersection, you must check for safety, and always proceed while sounding the car horn.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The location described in the question is not one of the places where you must sound the car horn.",
+      "image_file": null
+    },
+    {
+      "number": 14,
+      "text": "In areas where the traffic sign shown on the left is indicated, vehicles must not make a U-turn because it is dangerous to do so.",
+      "has_image": true,
+      "image_description": "A circular traffic sign with a red border indicating no U-turn.",
+      "correct_answer": "F",
+      "explanation": "This traffic sign warns that there is a roundabout intersection ahead.",
+      "image_file": "question_images/lp5_q14.png"
+    },
+    {
+      "number": 15,
+      "text": "When a police officer has his arms stretched out horizontally, at a location, other than an intersection, with no pedestrian crossing, bicycle crossing, or railroad crossing, the vehicles facing the officer must stop at the position 1 meter from the officer.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 16,
+      "text": "When passing a route bus that has stopped at a bus station, it is reasonable to assume that people may come out from the back of the bus at any time.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "You must slow down and check for safety while passing the route bus.",
+      "image_file": null
+    },
+    {
+      "number": 17,
+      "text": "When passing by a bicycle, you do not have to exercise caution as much as you do for a pedestrian.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You have to give due caution to a bicycle as well.",
+      "image_file": null
+    },
+    {
+      "number": 18,
+      "text": "When proceeding behind a large-size motorcycle on a road where it is regulated to \"Sounding Zone\" you sounded the car horn to let an oncoming vehicle know your vehicle was approaching the corner of the road.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "When visibility is poor (at intersections, corners, the top of hills) you need to sound your horn.",
+      "image_file": null
+    },
+    {
+      "number": 19,
+      "text": "When a child is walking unattended, you must sound the car horn while passing the child.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop or slow down, and not sound the car horn, to pass safely.",
+      "image_file": null
+    },
+    {
+      "number": 20,
+      "text": "In areas regulated by these traffic signs shown, pedestrians and bicycles may pass through.",
+      "has_image": true,
+      "image_description": "Two circular traffic signs: one showing 'No Entry for Vehicles' (a white horizontal bar on red background) and one showing 'Closed to All Vehicles' (a red circle with white interior).",
+      "correct_answer": "F",
+      "explanation": "These signs regulate \"No Entry for Vehicles,\" and \"Closed to All Vehicles,\" respectively; therefore, bicycles may not pass through.",
+      "image_file": "question_images/lp5_q20.png"
+    },
+    {
+      "number": 21,
+      "text": "The driver of a four-wheeled vehicle has to wear a seat belt but the passenger sitting in the front seat does not.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "All passengers must wear a seat belt.",
+      "image_file": null
+    },
+    {
+      "number": 22,
+      "text": "Once you have stopped before entering a railroad crossing and confirmed that no train is approaching, you may enter the railroad crossing regardless of the traffic conditions ahead of it.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not enter the railroad crossing if there is no room for your vehicle to completely cross.",
+      "image_file": null
+    },
+    {
+      "number": 23,
+      "text": "At a sharp curve on an uphill road where these pavement markings shown in the diagram are present, you must be extremely careful about an oncoming vehicle veering into your side of the road.",
+      "has_image": true,
+      "image_description": "Pavement markings showing diagonal lines (chevron markings) on the road surface indicating a sharp curve.",
+      "correct_answer": "T",
+      "explanation": "The pavement markings in the question refer to \"Drive on the right-hand side,\" so you must be very careful.",
+      "image_file": "question_images/lp5_q23.png"
+    },
+    {
+      "number": 24,
+      "text": "You kept the photocopies of your vehicle inspection certificate and a compulsory automobile liability insurance certificate (or a mutual relief system insurance certificate) in your automobile instead of the original documents because they were subject to loss and going through the formalities of re-issuance of these documents would be too cumbersome.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must keep the original documents, and not the copies, in your car when you drive.",
+      "image_file": null
+    },
+    {
+      "number": 25,
+      "text": "The term \"slowing down\" refers to reducing to a speed at which the vehicle can come to an immediate stop at any time, and that usually means driving at a speed of less than 10km/h.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 26,
+      "text": "You may exceed the regulated speed limit when you need to accelerate for overtaking other vehicles or changing lanes.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not exceed the regulated speed limit.",
+      "image_file": null
+    },
+    {
+      "number": 27,
+      "text": "To enter the gas station located on the right side of the road as shown in the illustration on the right, you made a right turn from the far-left side of the road and crossed the halfway line to enter the establishment as indicated by the arrow.",
+      "has_image": true,
+      "image_description": "An illustration showing a road with a gas station on the right side, and an arrow indicating a vehicle crossing from the far-left lane across the road to enter the gas station.",
+      "correct_answer": "F",
+      "explanation": "You must drive toward the center of the road beforehand, reduce speed and cross the road.",
+      "image_file": "question_images/lp5_q27.png"
+    },
+    {
+      "number": 28,
+      "text": "You must not serve or offer alcoholic beverages to a person who is going to drive.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 29,
+      "text": "When proceeding forward at an intersection, the general traffic rule says that vehicles traveling straight ahead have the right of way. Therefore, there is no need for you to worry about such drivers attempting to turn right in front of you by ignoring the rule.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You should drive always anticipating that the oncoming vehicle might execute a right turn in front of you by disregarding the traffic rule.",
+      "image_file": null
+    },
+    {
+      "number": 30,
+      "text": "In areas where vehicular lanes are separated by a yellow line, you may cross over the halfway line to make a right or left turn.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "Even when you need to make a right or left turn, you must not cross over the yellow line to change the direction of travel.",
+      "image_file": null
+    },
+    {
+      "number": 31,
+      "text": "Where this traffic sign is indicated, you must proceed while reducing to a speed at which you can come to an immediate halt.",
+      "has_image": true,
+      "image_description": "A triangular traffic sign indicating 'Slow Down' with Japanese text.",
+      "correct_answer": "T",
+      "explanation": "The traffic sign in the question regulates vehicles to \"Slow Down,\" so the passage of the question is correct.",
+      "image_file": "question_images/lp5_q31.png"
+    },
+    {
+      "number": 32,
+      "text": "When you make a right turn from a one-way road you must first approach the center of the road, then proceed to the position just short of the center of the intersection at a reduced speed.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "When making a right turn as described in the question, you must first move to the right side of the road, then proceed to the position just short of the center of the intersection at a reduced speed.",
+      "image_file": null
+    },
+    {
+      "number": 33,
+      "text": "In areas where this traffic sign is indicated, you may park at location A.",
+      "has_image": true,
+      "image_description": "A traffic sign indicating parking regulations with a 'P' symbol, alongside a diagram showing a road with a marked location 'A' near the sign.",
+      "correct_answer": "T",
+      "explanation": "The arrow shown on the auxiliary sign designates \"The End of Traffic Regulation\" so you may park at location A, which is right before the end of the section where parking is allowed.",
+      "image_file": "question_images/lp5_q33.png"
+    },
+    {
+      "number": 34,
+      "text": "A signal for turning right or left must be given 30 meters in advance of making the turn.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "When making a right, left, or U-turn, you should signal as the passage describes.",
+      "image_file": null
+    },
+    {
+      "number": 35,
+      "text": "When driving a vehicle you must always carry your driver's license with you in case you are asked to show it.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 36,
+      "text": "You proceeded on a vehicular lane with this pavement marking, you then changed lanes to the immediate right before the intersection and made a right turn.",
+      "has_image": true,
+      "image_description": "A pavement marking showing arrows indicating lane directions on the road surface.",
+      "correct_answer": "F",
+      "explanation": "You may not change lanes because this pavement marking designates \"Lane Directions,\" which indicates the direction the traffic in each lane must proceed in.",
+      "image_file": "question_images/lp5_q36.png"
+    },
+    {
+      "number": 37,
+      "text": "The sign shown on the right, which is attached at the bottom of the main traffic sign, refers to the starting point of the traffic regulation indicated by the main traffic sign.",
+      "has_image": true,
+      "image_description": "An auxiliary sign with Japanese text that reads 'koko kara' (from here), indicating the starting point of a traffic regulation.",
+      "correct_answer": "T",
+      "explanation": "The auxiliary sign shown in the question indicates the beginning of the traffic regulation designated by the main traffic sign.",
+      "image_file": "question_images/lp5_q37.png"
+    },
+    {
+      "number": 38,
+      "text": "The method of executing a left turn depicted by the arrow is correct.",
+      "has_image": true,
+      "image_description": "A diagram showing a vehicle's path making a left turn at an intersection, with an arrow depicting the turning trajectory.",
+      "correct_answer": "T",
+      "explanation": "The method of driving shown by the arrow is correct when you make a left turn.",
+      "image_file": "question_images/lp5_q38.png"
+    },
+    {
+      "number": 39,
+      "text": "The proper posture for driving a four-wheeled vehicle is to sit back leaning against the back of the seat, with your arms stretched out and your hands placed on the steering wheel.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You should adjust your seat to the position where your arms are slightly bent when you put your hands on the steering wheel.",
+      "image_file": null
+    },
+    {
+      "number": 40,
+      "text": "If you come across someone who has been involved in an automobile accident, or a breakdown, it is important to have consideration for such a person, and you should help in any way possible.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "We all should help each other as described in the question.",
+      "image_file": null
+    },
+    {
+      "number": 41,
+      "text": "This pavement marking indicates that there is an intersection ahead.",
+      "has_image": true,
+      "image_description": "A diamond-shaped pavement marking on the road surface, typically used to indicate a crosswalk or intersection ahead.",
+      "correct_answer": "F",
+      "explanation": "This pavement marking indicates that there is a road with right of way ahead and that you must yield.",
+      "image_file": "question_images/lp5_q41.png"
+    },
+    {
+      "number": 42,
+      "text": "When passing beside a pedestrian, who is visually-impaired and walking with a white or yellow cane, you must stop or slow down when driving past him/her, and should never impede the progress of that person; however, if a visually impaired person is walking with the aid of a seeing-eye dog, he/she is regarded as an ordinary pedestrian and so stopping or slowing down is not required.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must stop or slow down to let him/her pass safely.",
+      "image_file": null
+    },
+    {
+      "number": 43,
+      "text": "When this traffic sign is indicated on the leftmost vehicular lane of the road, regular vehicles, light special equipment and mopeds may go through this lane if there are no route buses in the vicinity.",
+      "has_image": true,
+      "image_description": "A traffic sign indicating a dedicated bus lane (with Japanese text for 'Route Bus').",
+      "correct_answer": "F",
+      "explanation": "Regular passenger vehicles may not use this lane unless it is inevitable that you do so due to road construction and similar, or for making a left turn.",
+      "image_file": "question_images/lp5_q43.png"
+    },
+    {
+      "number": 44,
+      "text": "A safe distance between two vehicles would be the same as the braking distance.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You need to keep approximately the same distance as the stopping distance to maintain a safe distance between two vehicles.",
+      "image_file": null
+    },
+    {
+      "number": 45,
+      "text": "When Vehicle A passes Vehicle B, Vehicle A must stop at position C shown in the illustration.",
+      "has_image": true,
+      "image_description": "An illustration showing two vehicles (A and B) on a road with a position C marked, depicting a passing scenario near a stopped vehicle.",
+      "correct_answer": "F",
+      "explanation": "When you pass beside a stopped vehicle, you must stop before you can proceed ahead of it.",
+      "image_file": "question_images/lp5_q45.png"
+    },
+    {
+      "number": 46,
+      "text": "Because there was not any ideal location for hanging up a store signboard near home, you displayed it onto the pole of a traffic light.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must not display any signs on the poles of traffic light.",
+      "image_file": null
+    },
+    {
+      "number": 47,
+      "text": "You do not have to observe the hand signals of a traffic warden because he/she is not a police officer.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "You must also observe the hand signals of traffic wardens as you do a police officer.",
+      "image_file": null
+    },
+    {
+      "number": 48,
+      "text": "For driving, you should use a hands-free cell-phone, which allows you to answer the phone without using your hands.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "T",
+      "explanation": "The passage of the question is correct.",
+      "image_file": null
+    },
+    {
+      "number": 49,
+      "text": "In areas designated by this traffic sign, you must drive at a reduced speed beforehand so as not to apply brakes.",
+      "has_image": true,
+      "image_description": "A yellow diamond-shaped warning traffic sign indicating a slippery road.",
+      "correct_answer": "T",
+      "explanation": "This traffic sign designates \"Slippery Road,\" so you should drive as the passage of the question.",
+      "image_file": "question_images/lp5_q49.png"
+    },
+    {
+      "number": 50,
+      "text": "The distance from the point at which the brakes are applied to the position at which the vehicle comes to a halt is always constant if driving at the same speed regardless of the conditions of the road surface.",
+      "has_image": false,
+      "image_description": null,
+      "correct_answer": "F",
+      "explanation": "The stopping distance varies depending on the conditions of the road surface.",
+      "image_file": null
+    }
+  ]
+}

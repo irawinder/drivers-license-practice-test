@@ -1,0 +1,4 @@
+*.pdf
+extracted/images/
+__pycache__/
+.DS_Store

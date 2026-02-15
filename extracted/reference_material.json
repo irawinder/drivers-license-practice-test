@@ -1,0 +1,420 @@
+{
+  "type": "reference_material",
+  "key_points_to_remember": {
+    "sections": [
+      {
+        "title": "MEANING OF TRAFFIC LIGHTS",
+        "points": [
+          "Traffic light signals: Always follow the signal you are facing.",
+          "Green light: Vehicles, with the exception of light vehicles and mopeds (motored bicycles) that are required to make a right turn using the two-step method, may go straight, or turn left or right.",
+          "When the traffic light turns yellow: Vehicles must stop at the stop line if it is safe to do so, otherwise keep going straight.",
+          "Red light: If you have already started making a right or a left turn when the light turns red, you may complete the turn.",
+          "Green arrow: Vehicles may proceed in the direction of the arrow. When the arrow is pointing to the right, vehicles may turn right or turn around (but mopeds and light vehicles turning by two-stage right turn cannot enter into the intersection).",
+          "Yellow Arrow: Only streetcars may proceed in the direction of the arrow.",
+          "Flashing yellow light: Vehicles may proceed with caution.",
+          "Flashing red light: Vehicles must stop at the stop line, and confirm safety before proceeding."
+        ]
+      },
+      {
+        "title": "HAND SIGNALS OF A POLICE OFFICER OR A TRAFFIC WARDEN",
+        "image_file": "question_images/ref_hand_signals.png",
+        "points": [
+          "Hand signals of a police officer or a traffic warden: Their hand signals are given priority over the traffic light signals, traffic signs or pavement markings."
+        ]
+      },
+      {
+        "title": "OBSERVING TRAFFIC SIGNS AND PAVEMENT MARKINGS",
+        "points": [
+          {
+            "text": "Road Blocked: The road is closed to pedestrians, vehicles, and streetcars. Make sure not to confuse this sign with 'No Parking.'",
+            "image_file": "question_images/ref_sign_road_blocked.png"
+          },
+          {
+            "text": "No-Overtaking: Vehicles may not change lanes for the purpose of overtaking, or passing the car traveling ahead of you.",
+            "image_file": "question_images/ref_sign_no_overtaking.png"
+          },
+          {
+            "text": "Motor Vehicles Only: Refers to national expressways and motorways used exclusively by motor vehicles. Try not to get confused with the questions coining the phrases like 'only regular-size cars may enter' or 'the road is closed to motor vehicles other than two-wheeled vehicles.'",
+            "image_file": "question_images/ref_sign_motor_vehicles_only.png"
+          },
+          {
+            "text": "Pedestrians Only: Refers to roads provided for the exclusive use of pedestrians. Only vehicles having a permit to pass may enter this area.",
+            "image_file": "question_images/ref_sign_pedestrians_only.png"
+          },
+          {
+            "text": "Proceed Only in Designated Direction(s): Vehicles must proceed only in the direction(s) of the arrow(s). In this case, because an auxiliary sign is attached at the bottom, large trucks with a gross weight of more than 8 tons or with a maximum loading capacity of more than 5 tons and special heavy equipment may only go straight, however, other vehicles may go straight or turn left or right.",
+            "image_file": "question_images/ref_sign_designated_direction.png"
+          },
+          {
+            "text": "Road Under Repair: Provides an advance warning for the roadwork ahead. Make sure not to confuse this sign with the one for 'Road Blocked.'",
+            "image_file": "question_images/ref_sign_road_under_repair.png"
+          },
+          {
+            "text": "No Entry Zone: Refers to a zone where vehicles must not pass, stop or park.",
+            "image_file": "question_images/ref_marking_no_entry_zone.png"
+          },
+          {
+            "text": "No Stopping Zone: Refers to a zone where vehicles may pass but may not stop. If the traffic ahead is congested, you must stop right before this sign and wait.",
+            "image_file": "question_images/ref_marking_no_stopping_zone.png"
+          },
+          {
+            "text": "No Crossing Over the Halfway Line for Overtaking: You may overtake if you can do so without crossing over the halfway line on the right side of the road. Make sure to differentiate this sign with the one for 'No-Overtaking.'",
+            "image_file": "question_images/ref_sign_no_crossing_halfway.png"
+          }
+        ]
+      },
+      {
+        "title": "LICENSE CLASSIFICATIONS AND THE TYPES OF VEHICLES QUALIFIED TO OPERATE",
+        "points": [
+          "Large: Large vehicles, Medium-size vehicles, Semi medium-size vehicles, Regular motor vehicles, Special light equipment and Mopeds",
+          "Medium-size: Medium-size vehicles, Semi medium-size vehicles, Regular motor vehicles, Special light equipment and Mopeds",
+          "Semi Medium-size: Semi medium-size vehicles, Regular motor vehicles, Special light equipment and Mopeds",
+          "Regular: Regular motor vehicles, Special light equipment and Mopeds",
+          "First Class - Large-size motorcycle: Large-size motorcycles, Regular motorcycles, Special light equipment and Mopeds",
+          "First Class - Regular Motorcycle: Regular motorcycles, Special light equipment and Mopeds",
+          "Special Heavy Equipment: Special heavy equipment, Special light equipment",
+          "Special Light Equipment: Special light equipment",
+          "Moped: Mopeds",
+          "Towing: This license is required for towing a hitched vehicle weighing in excess of 750 Kg by a towing vehicle.",
+          "Second Class: This license is required to operate vehicles for transporting fee-paying passengers, such as buses, or taxis.",
+          "Learner's Permit: This license is required to operate a large vehicle, Medium-size vehicles, Semi medium-size vehicles or a regular motor vehicle for the purpose of learning to drive or taking a driving test on public roads."
+        ]
+      },
+      {
+        "title": "VEHICLE TYPE CLASSIFICATION TABLE",
+        "image_file": "question_images/ref_vehicle_classification_table.png",
+        "vehicle_types": [
+          {
+            "classification": "Large vehicles",
+            "total_vehicle_weight": "Over 11 tons",
+            "maximum_payload": "Over 6.5 tons",
+            "seating_capacity": "Over 30",
+            "type_of_license": "Large vehicle license",
+            "age": "Over 21",
+            "years_of_driving_experience": "Over 3"
+          },
+          {
+            "classification": "Medium-size vehicle",
+            "total_vehicle_weight": "7.5 to 11 tons",
+            "maximum_payload": "4.5 to 6.5 tons",
+            "seating_capacity": "11 to 29",
+            "type_of_license": "Medium-size license",
+            "age": "Over 20",
+            "years_of_driving_experience": "Over 2"
+          },
+          {
+            "classification": "Semi medium-size vehicles",
+            "total_vehicle_weight": "3.5 to 7.5 tons",
+            "maximum_payload": "2 to 4.5 tons",
+            "seating_capacity": "Under 10",
+            "type_of_license": "Semi Medium-size vehicle license",
+            "age": "Over 18",
+            "years_of_driving_experience": "-"
+          },
+          {
+            "classification": "Regular vehicles",
+            "total_vehicle_weight": "Under 3.5 tons",
+            "maximum_payload": "Under 2 tons",
+            "seating_capacity": "Under 10",
+            "type_of_license": "Regular vehicle license",
+            "age": "Over 18",
+            "years_of_driving_experience": "-"
+          }
+        ]
+      },
+      {
+        "title": "WHERE TO DRIVE",
+        "points": [
+          "Cases where vehicles may pull out to the right-side of the road: On one-way roads; When there is not sufficient width to the left side of the road for vehicles to pass through; When the left side of the road is blocked due to roadwork or other reasons; When overtaking a vehicle on a road having a width of less than 6 meters and an unobstructed view (except when there is a traffic signal or a sign indicating otherwise.)",
+          "When there is a traffic sign or a pavement marking designating to 'Drive on the Right Side.'",
+          "On roads having no vehicular lane: Light vehicles must proceed along the left most side of the road. Automobiles and mopeds must keep to the left on the left side of the road. (The Rule of Keeping to the Left)",
+          "On roads having two vehicular lanes: Regardless of vehicular types, vehicles must proceed on the left lane. (The right lane must be left open for vehicles overtaking and turning to the right.)",
+          "On roads having three or more vehicular lanes: The rightmost lane must be left open for overtaking vehicles. (Regardless of vehicular types, slow-moving vehicles must use the left lane, and fast-moving vehicles should use the center lane.)",
+          "Cases where the exclusive lane for route buses is available to regular vehicles: When the exclusive lane is designated to the leftmost side of the road - Automobiles are permitted to enter the exclusive lane for route buses when making a left turn, or when the lane you are in is blocked due to construction or other reasons. Light special equipment, light vehicles, and mopeds may use the exclusive lanes.",
+          "When the exclusive lane is designated toward the center of the road - Vehicles may use the exclusive lane for route buses when making a right turn, or when the lane you are in is blocked due to construction or other reasons.",
+          "Priority Lanes for Route Buses: Vehicles may not use the priority lanes for route buses when the traffic congestion ahead may prevent you from leaving the priority lane as soon as you see an approaching bus."
+        ]
+      },
+      {
+        "title": "WHERE NOT TO DRIVE",
+        "points": [
+          "Safety Zones, No Entry Zones, Side walks, Side strips, Bikeways (Vehicles may enter these areas when driving across them.)",
+          "When driving across a side walk and the like, you must always come to a stop before entering these areas even when there is no pedestrian.",
+          "Pedestrian Walkways (Vehicles obtaining a special permit may enter the pedestrian walkways, in which case the driver must slow down and exercise caution.)",
+          "On Streetcar Tracks (Vehicles may enter these tracks when permitted by traffic signs, avoiding danger, making a left or right turn, or crossing.)"
+        ]
+      },
+      {
+        "title": "NO PARKING AND STOPPING ZONES",
+        "points": [
+          "Locations where there is a sign or a pavement marking indicating 'No parking' or 'No Stopping.'",
+          "Inside tunnels",
+          "In the vicinity of the top of a hill or on steep slopes.",
+          "Inside streetcar tracks",
+          "Inside intersections and the areas within 5 meters of the periphery of the intersections.",
+          "Areas within 5 meters of the corners of roads.",
+          "Areas within 5 meters of both sides of crosswalks.",
+          "Areas within 10 meters of both sides of railroad crossings.",
+          "On the left side of safety zones and the areas within 10 meters of the front and rear of safety zones.",
+          "Within 10 meters of bus stop signboards. (Applicable only during operational hours.)",
+          "Parking or stopping a vehicle is not allowed within the areas where the side strips are marked with a white solid line and a broken line, or two white solid lines."
+        ]
+      },
+      {
+        "title": "NO PARKING ZONES (STOPPING IS ALLOWED)",
+        "points": [
+          "Areas where there is a sign or a pavement marking designating 'No Parking.'",
+          "Within 1 meter of a fire alarm box.",
+          "Within 3 meters of a parking lot entrance or exit.",
+          "Within 5 meters of the periphery of roadwork site.",
+          "Within 5 meters of firefighting facilities.",
+          "When a vehicle is parked illegally, and the driver cannot be made to take responsibility, the user of the vehicle shall be made responsible.",
+          "If the 'user' is normally the holder of the vehicle inspection certificate and in most case is the owner of the vehicle. (There are cases when the user is different from the owner such as when the vehicle is being paid for in installment payments or is being leased.)"
+        ]
+      },
+      {
+        "title": "WHAT TO DO WHEN AN EMERGENCY VEHICLE IS APPROACHING",
+        "points": [
+          "In and around an intersection: you should move out of the intersection and pull over to the left side of the road.",
+          "At a location other than in and around an intersection: you should move to the left side of the road, and give way to the emergency vehicle.",
+          "On a one-way street: you may pull over to the right side of the road if you think you would be in the way of the approaching emergency vehicle."
+        ]
+      },
+      {
+        "title": "HOW TO PROCEED WHEN APPROACHING A PEDESTRIAN CROSSING OR A BICYCLE CROSSING AHEAD",
+        "points": [
+          "When there are pedestrians crossing the crosswalk: You must stop behind the stop line.",
+          "When you are uncertain whether or not there are any pedestrians crossing the crosswalk: You must reduce speed sufficiently to allow you to make an immediate stop.",
+          "When there are no pedestrians: You may proceed without slowing down.",
+          "When the traffic ahead is congested and you may be at risk of stopping directly over a pedestrian crossing: You must stop before entering the pedestrian crossing even when the traffic light is green. (The same applies to intersections, railroad crossings and no-stopping zones.)",
+          "Vehicles are prohibited from overtaking or passing other vehicles at or within 30 meters of a pedestrian crossing or a bicycle crossing."
+        ]
+      },
+      {
+        "title": "WHAT TO DO WHEN",
+        "points": [
+          "passing by pedestrians: Keep a safe distance from them or slow down.",
+          "passing by a child or a physically disabled person: Stop or slow down.",
+          "passing by an elderly person having a difficulty walking: Stop or slow down.",
+          "passing by a safety zone: Slow down only when there are pedestrians.",
+          "passing by a parked school bus: Slow down and confirm safety.",
+          "passing by a vehicle stopped at a pedestrian crossing: Stop before going forward.",
+          "approaching the rear of a streetcar parked at a station: Stop behind the streetcar and wait until every passenger has finished crossing the road. (In cases where there is a safety zone provided, when there is no passenger getting on or off or there is a space of at least 1.5 meters between you and the safety zone - Proceed at a reduced speed.)",
+          "approaching the rear of a route bus: Proceed with caution."
+        ]
+      },
+      {
+        "title": "AREAS WHERE YOU MUST SLOW DOWN",
+        "points": [
+          "Where there is a sign or a pavement marking designating 'Slow Down.'",
+          "In and around an intersection with a laterally obstructed view. (You do not have to slow down when there is a traffic light or when proceeding on a road with the right of way.)",
+          "At and around the corners of a road.",
+          "At and around the top of a hill or on steep slopes.",
+          "The term 'slowing down' means reducing to a speed at which the vehicle can come to an immediate stop at any time."
+        ]
+      },
+      {
+        "title": "WHEN TO SIGNAL",
+        "points": [
+          "Making a right or left turn, or a U-turn: 30 meters in advance.",
+          "Shifting lanes: Approximately 3 seconds in advance.",
+          "Slowing down, stopping, or backing up: At the onset of execution."
+        ]
+      },
+      {
+        "title": "AREAS WHERE OVERTAKING IS PROHIBITED",
+        "points": [
+          "Where there is a sign or a pavement marking designating 'No Passing.'",
+          "Inside tunnels without a vehicular lane.",
+          "At and around the corners of a road.",
+          "At and around the top of a hill or on steep slopes.",
+          "Inside intersections and within 30 meters of the periphery of the intersections. (Overtaking is permitted when you are proceeding on a road with the right of way.)",
+          "At railroad crossings, pedestrian crossings, or bicycle crossings and within 30 meters of such crossings."
+        ]
+      },
+      {
+        "title": "WHAT TO DO WHEN OVERTAKING",
+        "points": [
+          "a vehicle ahead: As a general rule, you must overtake on the right side of the vehicle you are about to overtake. (You may overtake on the left side of the vehicle ahead of you when it shifts its direction to the center of the road for a right turn.)",
+          "a streetcar: As a general rule, you must overtake on the left side of the streetcar."
+        ]
+      },
+      {
+        "title": "WHERE TOWING VEHICLES (MOTOR VEHICLES FOR TOWING A LARGE VEHICLE) AND LARGE CARGOS SHOULD DRIVE",
+        "points": [
+          {
+            "text": "Towing vehicles: On national expressways and motorways - Proceed in the leftmost vehicular lane of the main through lanes. The driver must proceed in accordance with traffic signs if any.",
+            "image_file": "question_images/ref_towing_vehicle_expressways.png"
+          },
+          {
+            "text": "On exclusive lanes for automobiles: The driver must proceed in accordance with traffic signs if any.",
+            "image_file": "question_images/ref_towing_vehicles_exclusive_lanes.png"
+          },
+          {
+            "text": "The driver must proceed in accordance with traffic signs specified for large cargos if any.",
+            "image_file": "question_images/ref_towing_vehicles_large_capacity.png"
+          }
+        ]
+      },
+      {
+        "title": "MAXIMUM SPEED LIMIT ON PUBLIC ROADS WITHOUT TRAFFIC SIGNS",
+        "points": [
+          "Automobiles: maximum speed of 60km/h",
+          "Mopeds: maximum speed of 30km/h",
+          "Note: Light Special Equipment: maximum speed of 15km/h"
+        ]
+      },
+      {
+        "title": "WHAT TO DO WHEN SHIFTING LANES",
+        "image_file": "question_images/ref_shifting_lanes.png",
+        "points": [
+          "Shifting lanes on a road marked with a solid yellow line is only permitted when yielding the road to an approaching emergency vehicle, or if the lane you are driving is blocked due to construction or other reasons."
+        ]
+      },
+      {
+        "title": "WHAT TO DO WHEN PROCEEDING THROUGH INTERSECTIONS",
+        "image_file": "question_images/ref_turning_at_intersection.png",
+        "points": [
+          "Making a right or left turn at an intersection: Proceed to the point just short of the center of the intersection.",
+          "What to do when proceeding through an intersection with no traffic light when the width of the intersecting roads are the same: A vehicle approaching from the left has the right of way.",
+          "A vehicle proceeding on the priority road has the right of way.",
+          "A vehicle proceeding on the wider road has the right of way.",
+          "Roads with the Right of Way: These roads indicated by the traffic sign are on the left, and roads where the halfway line or the vehicular lanes continue through the intersection.",
+          "Oncoming vehicles proceeding straight and those making a left turn have priority over the vehicles making a right turn."
+        ]
+      },
+      {
+        "title": "RESTRICTIONS ON CARRYING PASSENGERS AND CARGOS",
+        "points": [
+          "Height from the ground level:",
+          "Large, Medium-size, Semi medium-size and regular vehicles, and heavy special equipment: Up to 3.8 meters (up to 4.1 meters is allowed with a permit issued by Public Safety Commission)",
+          "Three-wheeled passenger cars, and regular vehicles with an engine displacement of 660cc or less: Up to 2.5 meters",
+          "Light vehicles, large- and regular-size motorcycles, and mopeds: Up to 2 meters",
+          "Width of the load-carrying container:",
+          "Large, Medium-size, Semi medium-size and regular vehicles, and heavy special equipment: Up to the width of the vehicle x 1.2",
+          "Large- and regular-size motorcycles, and mopeds: The width of the load-carrying equipment plus 0.15 meter extending on either side of it.",
+          "Length of the load-carrying container:",
+          "Large, Medium-size, Semi medium-size and regular vehicles, and heavy and light special equipment: Up to the length of the vehicle x 1.2",
+          "Large- and regular-size motorcycles, and mopeds: Up to the length of the load-carrying equipment plus 0.3 meter",
+          "Loading capacity:",
+          "Large, Medium-size, Semi medium-size and regular-size and regular motorcycles, heavy special equipment, and motorcycles with a sidecar: Loading capacity specified on the inspection certificate.",
+          "Light special equipment: Up to 700 kg",
+          "Large- and regular-size motorcycles: Up to 60 kg",
+          "Mopeds: Up to 30 kg",
+          "When calculating seating capacity, three children less than 12 years of age equal two adults."
+        ]
+      },
+      {
+        "title": "VEHICLES PROHIBITED FROM ENTERING EXPRESSWAYS",
+        "points": [
+          "Mini-cars",
+          "Mopeds, Specified small motorized bicycles",
+          "Regular motorcycles of the engine displacement of 125cc or less than 1.00kw rated output.",
+          "Vehicles that are structurally incapable of driving at a speed of more than 50km/h (Motorways are accessible.)",
+          "Vehicles towing a broken-down vehicle using ropes (Motorways are accessible.)"
+        ]
+      },
+      {
+        "title": "WHAT NOT TO DO ON EXPRESSWAYS",
+        "points": [
+          "Riding double on large- or regular-size motorcycles. (However, riding double on expressways is permitted for those riders over 20 years of age and who have possessed a driver's license for large-or regular-size motorcycles for more than three years.)",
+          "Crossing, making a U-turn, or backing up.",
+          "Parking or stopping (The driver may come to a halt when trying to avoid danger.)",
+          "Proceeding on road shoulders, and side strips."
+        ]
+      },
+      {
+        "title": "MAXIMUM SPEED LIMIT ON NATIONAL EXPRESSWAYS (ON MAIN THROUGH LANES)",
+        "points": [
+          "100km/h: Large, Medium, Semi medium-size and regular vehicles (except three-wheeled regular passenger vehicles); Large cargo vehicles with a gross weight under 8 tons and max. load under 5 tons; Large- and regular-size motorcycles (of the engine displacement of 125cc or more)",
+          "90km/h: Large cargo vehicles with a gross weight over 8 tons and max. load over 5 tons.",
+          "80km/h: Heavy special equipment, towing vehicles (trailers); Three-wheeled vehicles",
+          "50km/h: Minimum speed limit",
+          "When traveling through a section of motor highways or main through lanes having no halfway line and only one lane available for traffic traveling in both directions, the speed limit is the same that applies to traffic on general public roads."
+        ]
+      }
+    ]
+  },
+  "exam_instructions": {
+    "learners_permit": {
+      "total_questions": 50,
+      "time_limit_minutes": 30,
+      "passing_score": 45,
+      "instructions": [
+        "The learner's permit examination contains 50 questions to be administered within a time frame of 30 minutes. A test score of 45 or more is required to pass the exam."
+      ]
+    },
+    "drivers_license": {
+      "total_questions": 95,
+      "verbal_questions": 90,
+      "verbal_points_per_question": 1,
+      "danger_questions": 5,
+      "danger_points_per_question": 2,
+      "time_limit_minutes": 50,
+      "passing_score": 90,
+      "total_points": 100,
+      "instructions": [
+        "The driver's license examination contains 90 verbal questions (1 point per question) and 5 questions on 'Anticipating Danger' (2 points per question). There are 95 questions (100 points) in total to be administered within a 50-minute time frame. A test score of 90 points or more is required to pass the exam."
+      ]
+    },
+    "before_you_start": [
+      "Clear your head. Try not to clutter your mind with unrealistic exceptions to the rules or complicated situations. You will be asked questions within the general principles of driving, unless specifically stated otherwise.",
+      "Try to figure out your answers by putting yourself in actual situations you might encounter when driving the vehicle you are going to be tested in."
+    ],
+    "examinees_checklist": [
+      "When you arrive at the test center, and are seated in the designated seat, avoid last-minute anxiety and listen carefully to the instructions the examiner gives you.",
+      "Read the questions carefully, and using a pencil, draw a thick clear line over the center of either one of the squares provided for T (true) or F (False) answers.",
+      "The sheets for questions and answers are handed out separately, so as you answer each question, check that the number of the exam question and the number of the answer correspond with each other. This is especially important if you skip some of the questions you are unsure of and then come back to them later to mark the ones you know the answers for first.",
+      "If you have any questions quietly raise your hand."
+    ],
+    "how_to_use_textbook": [
+      "This textbook provides explanations for each answer, describing why the answer is true or false. Every time you make a mistake, read the question and answer over again to improve understanding.",
+      "This textbook includes a selection of problems that have been on actual examinations, so familiarize yourself with the patterns of questions and the manners of expression. It has been designed to improve your test scores over a short period of time and to prepare you thoroughly for virtually any driver's license examination."
+    ]
+  },
+  "anticipating_danger_guide": {
+    "title": "WHAT YOU NEED TO KNOW ABOUT THE QUESTIONS ON 'ANTICIPATING DANGER'",
+    "image_file": "question_images/ref_danger_anticipation_guide.png",
+    "description": "Driver's License examinations contain a total of five questions on 'Anticipating Danger.' Each question has three parts. Study each illustration carefully, imagine yourself as actually driving the vehicle in the pictures, read the questions, and mark T (true) if you think the answer to the question is correct, and F (false) if you think the answer to the question is incorrect. (2 points are given for all three correct answers for each question.)",
+    "how_to_anticipate": "HOW TO ANTICIPATE POTENTIAL DANGERS...",
+    "visible_dangers": [
+      {
+        "situation": "When there are children ahead caught up in playing, or going to and from school.",
+        "potential_danger": "Danger of children dashing out onto the road."
+      },
+      {
+        "situation": "When the vehicle in front of you is attempting to stop or park on the left side of the road.",
+        "potential_dangers": [
+          "Danger of suddenly changing direction.",
+          "Danger of pedestrians dashing out.",
+          "Danger of suddenly opening the door."
+        ]
+      },
+      {
+        "situation": "When proceeding on a road with the right of way, there is a vehicle entering the intersection from the left or right direction.",
+        "potential_danger": "Danger of them cutting across right in front of you."
+      }
+    ],
+    "hidden_dangers": [
+      {
+        "situation": "When there is a route bus stopped at a bus station.",
+        "potential_danger": "Danger of passengers coming out from behind the bus."
+      },
+      {
+        "situation": "When turning right and passing in front of an oncoming large truck.",
+        "potential_danger": "Danger of a vehicle, blocked from your view, proceeding from behind the truck."
+      },
+      {
+        "situation": "When approaching an intersection, there is a motorcycle behind to your left.",
+        "potential_danger": "Danger of coming in contact with the motorcycle."
+      }
+    ],
+    "key_principle": "It is impossible to anticipate if you do not know the behavioral patterns or blind spots.",
+    "anticipation_flow": [
+      "Behavioral patterns of pedestrians and Dangers of blind spots between vehicles",
+      "To recognize",
+      "To anticipate potential dangers",
+      "Driving without getting involved in accidents"
+    ]
+  }
+}
