@@ -232,8 +232,11 @@ function submitAnswer(answer) {
   resultPanel.style.display = "block";
 
   const banner = document.getElementById("result-banner");
+  const justMastered = correct && p.streak === 2;
   banner.className = "result-banner " + (correct ? "correct" : "incorrect");
-  banner.textContent = correct ? "Correct!" : "Incorrect - Answer: " + (currentQuestion.correct_answer === "T" ? "TRUE" : "FALSE");
+  let bannerText = correct ? "Correct!" : "Incorrect - Answer: " + (currentQuestion.correct_answer === "T" ? "TRUE" : "FALSE");
+  if (justMastered) bannerText += " Mastered!";
+  banner.textContent = bannerText;
 
   document.getElementById("result-explanation").textContent = currentQuestion.explanation;
 }
