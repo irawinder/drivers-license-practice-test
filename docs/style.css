@@ -18,8 +18,16 @@ body {
 h1 {
   font-size: 1.4rem;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   color: #1a1a2e;
+}
+
+.site-description {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 16px;
+  line-height: 1.4;
 }
 
 h2 {
