@@ -3712,7 +3712,7 @@
     "has_image": false,
     "image_file": null,
     "correct_answer": "F",
-    "explanation": "You must not stop or park inside any tunnels."
+    "explanation": "Stopping and parking is prohibited in tunnels without vehicular lanes, but the presence of vehicular lanes does matter. The statement is incorrect because it says 'regardless.'"
   },
   {
     "id": "dl2_q16",
@@ -4716,7 +4716,7 @@
     "text": "You must not overtake on the right side of a vehicle attempting to move to the right to make a right turn.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "It is dangerous to overtake the vehicle ahead in the situation described in the passage."
   },
   {
@@ -7076,7 +7076,7 @@
     "text": "Even if you have had a regular driver's license for more than a year and a regular-size motorcycle license for less than a year, you would still be considered as a newly licensed driver as far as the regular-size motorcycle license is concerned.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "You will be placed into the category of newly licensed drivers for a period of one year for each license you obtain."
   },
   {
@@ -8682,7 +8682,7 @@
     "has_image": false,
     "image_file": null,
     "correct_answer": "F",
-    "explanation": "You are not prohibited from overtaking on steep downhill slopes."
+    "explanation": "Overtaking is prohibited at or around the top of slopes and on steep downhill slopes, but it is not prohibited on steep uphill slopes."
   },
   {
     "id": "dl6_q87",

@@ -91,7 +91,7 @@
       "text": "You must not overtake on the right side of a vehicle attempting to move to the right to make a right turn.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "It is dangerous to overtake the vehicle ahead in the situation described in the passage.",
       "image_file": null
     },

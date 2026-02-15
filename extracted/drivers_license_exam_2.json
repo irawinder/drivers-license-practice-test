@@ -152,7 +152,7 @@
       "has_image": false,
       "image_description": null,
       "correct_answer": "F",
-      "explanation": "You must not stop or park inside any tunnels.",
+      "explanation": "Stopping and parking is prohibited in tunnels without vehicular lanes, but the presence of vehicular lanes does matter. The statement is incorrect because it says 'regardless.'",
       "image_file": null
     },
     {
