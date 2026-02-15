@@ -41,7 +41,7 @@
       "text": "When the traffic light at a railroad crossing indicates a green light, you do not have to stop before entering the railroad crossing, but you do have to check for safety before proceeding through.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "When there is a traffic light, you should cross the railroad crossing as described in the passage.",
       "image_file": null
     },
@@ -781,8 +781,8 @@
       "text": "A driver may carry three adults and three 5-year-old children other than the driver in the vehicle having a seating capacity of six people.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "F",
-      "explanation": "Three children under the age of 12 years are equivalent to two adults.",
+      "correct_answer": "T",
+      "explanation": "Three children under the age of 12 years are equivalent to two adults. So the total is: 1 driver + 3 adults + 2 adult-equivalents = 6, which matches the seating capacity.",
       "image_file": null
     },
     {
@@ -981,7 +981,7 @@
         {
           "number": 3,
           "text": "It would be dangerous if the vehicle ahead of you on the right switched lanes because there is not enough space between, so move into the left vehicular lane.",
-          "correct_answer": "F",
+          "correct_answer": "T",
           "explanation": "The passage of the question is correct."
         }
       ],

@@ -401,7 +401,7 @@
       "text": "On roads having no sidewalk or side strip, four-wheeled vehicles must not drive within 0.5 meter of the edge of the road.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "As described in the passage, vehicles must not proceed on the shoulder of the road.",
       "image_file": null
     },
@@ -691,7 +691,7 @@
       "text": "Mopeds may not pass or overtake other vehicles at a pedestrian crossing, a bicycle crossing or within 30 meters of these crossings.",
       "has_image": false,
       "image_description": null,
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "You must not pass or overtake in the areas described in the question.",
       "image_file": null
     },

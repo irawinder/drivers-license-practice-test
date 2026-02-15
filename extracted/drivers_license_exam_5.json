@@ -391,7 +391,7 @@
       "text": "The traffic sign shown on the right refers to a \"shelter,\" so when you are proceeding on an uphill slope, you must enter the shelter and wait until vehicles going down the slope have passed through the area.",
       "has_image": true,
       "image_description": "Traffic sign showing a shelter/waiting area symbol",
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "You must enter the shelter and wait as the passage describes.",
       "image_file": "question_images/dl5_q39.png"
     },

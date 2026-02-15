@@ -2957,7 +2957,7 @@
     "has_image": false,
     "image_file": null,
     "correct_answer": "T",
-    "explanation": "You must park on the left side of the road even on one-way roads."
+    "explanation": "The passage of the question is correct. On one-way roads, you may park on either side of the road."
   },
   {
     "id": "dl1_q47",
@@ -4111,7 +4111,7 @@
     "text": "In areas where the traffic sign shown on the right is present, vehicles must not pass through, but pedestrians may pass through.",
     "has_image": true,
     "image_file": "images/dl2_q55.png",
-    "correct_answer": "T",
+    "correct_answer": "F",
     "explanation": "It indicates that pedestrians, vehicles, nor streetcars may pass through."
   },
   {
@@ -4666,7 +4666,7 @@
     "text": "When the traffic light at a railroad crossing indicates a green light, you do not have to stop before entering the railroad crossing, but you do have to check for safety before proceeding through.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "When there is a traffic light, you should cross the railroad crossing as described in the passage."
   },
   {
@@ -5406,8 +5406,8 @@
     "text": "A driver may carry three adults and three 5-year-old children other than the driver in the vehicle having a seating capacity of six people.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
-    "explanation": "Three children under the age of 12 years are equivalent to two adults."
+    "correct_answer": "T",
+    "explanation": "Three children under the age of 12 years are equivalent to two adults. So the total is: 1 driver + 3 adults + 2 adult-equivalents = 6, which matches the seating capacity."
   },
   {
     "id": "dl3_q79",
@@ -5625,7 +5625,7 @@
     "text": "It would be dangerous if the vehicle ahead of you on the right switched lanes because there is not enough space between, so move into the left vehicular lane.",
     "has_image": true,
     "image_file": "images/dl3_q93.png",
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "The passage of the question is correct."
   },
   {
@@ -6091,7 +6091,7 @@
     "text": "On roads having no sidewalk or side strip, four-wheeled vehicles must not drive within 0.5 meter of the edge of the road.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "As described in the passage, vehicles must not proceed on the shoulder of the road."
   },
   {
@@ -6381,7 +6381,7 @@
     "text": "Mopeds may not pass or overtake other vehicles at a pedestrian crossing, a bicycle crossing or within 30 meters of these crossings.",
     "has_image": false,
     "image_file": null,
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "You must not pass or overtake in the areas described in the question."
   },
   {
@@ -7146,7 +7146,7 @@
     "text": "The traffic sign shown on the right refers to a \"shelter,\" so when you are proceeding on an uphill slope, you must enter the shelter and wait until vehicles going down the slope have passed through the area.",
     "has_image": true,
     "image_file": "images/dl5_q39.png",
-    "correct_answer": "F",
+    "correct_answer": "T",
     "explanation": "You must enter the shelter and wait as the passage describes."
   },
   {

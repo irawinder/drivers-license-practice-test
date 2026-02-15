@@ -551,7 +551,7 @@
       "text": "In areas where the traffic sign shown on the right is present, vehicles must not pass through, but pedestrians may pass through.",
       "has_image": true,
       "image_description": "A traffic sign indicating a vehicle restriction area.",
-      "correct_answer": "T",
+      "correct_answer": "F",
       "explanation": "It indicates that pedestrians, vehicles, nor streetcars may pass through.",
       "image_file": "question_images/dl2_q55.png"
     },
