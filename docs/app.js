@@ -90,10 +90,12 @@ function pickQuestion() {
   const inProgressPool = filterRecent(buckets.in_progress);
   const masteredPool = filterRecent(buckets.mastered);
 
+  // Only include mastered questions when everything else is done
+  const hasNonMastered = wrongPool.length > 0 || unseenPool.length > 0 || inProgressPool.length > 0;
+
   let chosen = null;
 
   if (wrongPool.length > 0) {
-    // Priority: wrong questions
     chosen = weightedPick([
       [wrongPool, 60],
       [unseenPool, 30],
@@ -101,23 +103,23 @@ function pickQuestion() {
     ]);
   } else if (unseenPool.length > 0) {
     chosen = weightedPick([
-      [unseenPool, 60],
+      [unseenPool, 70],
       [inProgressPool, 30],
-      [masteredPool, 10],
     ]);
   } else if (inProgressPool.length > 0) {
-    chosen = weightedPick([
-      [inProgressPool, 70],
-      [masteredPool, 30],
-    ]);
+    chosen = randomFrom(inProgressPool);
   } else if (masteredPool.length > 0) {
     chosen = randomFrom(masteredPool);
   }
 
-  // Fallback: if anti-repetition filtered everything out, pick from unfiltered
+  // Fallback: if anti-repetition filtered everything out, pick from unfiltered (excluding mastered if possible)
   if (!chosen) {
-    const all = [...buckets.wrong, ...buckets.unseen, ...buckets.in_progress, ...buckets.mastered];
-    chosen = randomFrom(all);
+    const nonMastered = [...buckets.wrong, ...buckets.unseen, ...buckets.in_progress];
+    if (nonMastered.length > 0) {
+      chosen = randomFrom(nonMastered);
+    } else {
+      chosen = randomFrom(buckets.mastered);
+    }
   }
 
   return chosen;
