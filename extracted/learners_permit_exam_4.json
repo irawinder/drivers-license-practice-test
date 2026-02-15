@@ -298,7 +298,7 @@
       "text": "When approaching an intersection which has no traffic light and the two intersecting roads are of the same width as shown in the diagram, Regular Vehicle B must not impede the progress of Two-wheeled Vehicle A.",
       "has_image": true,
       "image_description": "A diagram showing an intersection of two roads of equal width with Vehicle A (a two-wheeled vehicle) approaching from the right and Vehicle B (a regular vehicle) approaching from another direction.",
-      "correct_answer": "F",
+      "correct_answer": "T",
       "explanation": "Regular Vehicle B must not impede the progress of Two-wheeled Vehicle A approaching from the left.",
       "image_file": "question_images/lp4_q33.png"
     },
